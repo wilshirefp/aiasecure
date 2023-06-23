@@ -12,7 +12,7 @@ export default function Footer() {
 
           <div className={styles.item}>
             <div className={styles.contactItems}>
-                <Image src="/images/WhiteLogo.PNG" alt="AA Securities Logo" width="350" height="60"></Image> 
+                <Image src="/images/whitelogo1.png" alt="AA Securities Logo" width="350" height="60"></Image> 
                 <div className={styles.contactInfo}>
                 <div className={styles.phone}><h7>(877) 247-7557</h7></div>
                 <h7 className={styles.email}>info@aiasecure.com</h7>
