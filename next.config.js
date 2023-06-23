@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images:{
     domains: ["vercel.app","aiasecurities-o2e4rbc02-marketing-pantummedia.vercel.app"],
-    unoptimized:  true,
+   // unoptimized:  true,
   },
   loader:"imgix",
   path:"",
