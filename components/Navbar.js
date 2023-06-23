@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <div className={styles.container}>
         <Link href="/" passHref>
-            <Image src="https://aiasecurities-o2e4rbc02-marketing-pantummedia.vercel.app/images/BlueLogo.PNG" alt="AA Securities Logo" width="350" height="70"></Image>
+            <Image src="/images/bluelogo.png" alt="AA Securities Logo" width="350" height="70"></Image>
         </Link>
         {/* <div className={styles.item}> */}
             <ul className={styles.list}>
