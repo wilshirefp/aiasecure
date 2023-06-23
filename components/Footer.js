@@ -15,7 +15,7 @@ export default function Footer() {
                 <Image src="/images/WhiteLogo.PNG" alt="AA Securities Logo" width="350" height="60"></Image> 
                 <div className={styles.contactInfo}>
                 <div className={styles.phone}><h7>(877) 247-7557</h7></div>
-                <h7 className={styles.email}>info@AIASecure.com</h7>
+                <h7 className={styles.email}>info@aiasecure.com</h7>
                 </div>
                 <div className={styles.copyrightArea}>
                   <h7 className={styles.copyright}>Copyright © 2023 AIA Securities LLC</h7>
