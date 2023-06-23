@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images:{
-    domains: ["vercel.app"]
+    domains: ["vercel.app","aiasecurities-o2e4rbc02-marketing-pantummedia.vercel.app"]
   },
   loader:"imgix",
   path:"",
