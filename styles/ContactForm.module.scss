@@ -1,0 +1,91 @@
+.container{
+    padding: 0;
+    display: flex;
+
+    justify-content: space-evenly;
+    padding: 0 100px;
+    font-size: 1.3em;
+    margin: 30px 0;
+    position: relative;
+
+    .formArea{
+        //width: 50%;
+        background-color: #E4E5E6;
+        border-radius: 10px;
+        padding: 0.5em;
+        //opacity:0;
+        transition: all 1s ease-in;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+
+        
+    }
+    .form{
+        width: 500px;
+        height: 600px;
+        padding: 50px;
+        display: flex;
+        flex-wrap: wrap;
+
+        .inputS{
+            flex: 1;
+            height: 50px;
+            padding-left: 10px;
+
+            &:first-child{
+                margin-right: 5px;
+            }
+        }
+        .inputL{
+            width: 100%;
+            height: 50px;
+            padding-left: 10px;
+        }
+        .textArea{
+            width: 100%;
+            padding-left: 10px;
+        }
+        .button{
+            margin-top: 20px;
+           // padding: 5px 10px;
+            border: none;
+            border-radius: 10px;
+            color:#19204b;
+            background-color: greenyellow;
+            width: 100%;
+            font-size: 1em;
+            cursor: pointer;
+            
+        }
+    }
+    .mapArea{
+    
+        display: flex;
+        flex-direction: column;
+        
+       // position: absolute;
+        height: 675px;
+        //justify-content: right;
+        position: relative;
+        .imageArea{
+            height:375px;
+            position:relative;
+            
+        }
+
+        .contactInfo{
+            margin-top: 2em;
+            height: 200px;
+            width: 70%;
+            color: #19204b;
+           // font-size: 2.1em;
+            //font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+           
+        }
+    }
+
+}

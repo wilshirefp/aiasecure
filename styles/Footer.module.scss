@@ -1,0 +1,83 @@
+.container{
+  //  height: 300px;
+    background-color: #19204b;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .content{
+        display: flex;
+        overflow: hidden;
+         flex: 4;
+         width: 100%;
+         margin-top: 2em;
+    }
+}
+
+.item{
+    flex: 2;
+    overflow: hidden;
+    padding-bottom: 3em;
+    padding-top: 1em;
+
+    .contactItems{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+         align-items:flex-end ;
+        padding-right: 2em;
+        color: #fff;
+        
+        border-right: 2px solid white;
+        height: 100%;
+        .contactInfo{
+            padding: 2em 0;
+            font-size: 1em;
+            font-size: 1.3em;
+
+            .email{
+                color: #95c93d;
+                font-weight: bold;
+            }
+        }       
+        .copyright{
+            font-size: 1.3em;
+        }
+    }
+}
+.list{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    list-style:none;
+    padding: 0;
+    .listItem {
+        font-weight: 450;
+        color: #fff;
+        font-size: 1.5em;
+
+    &:hover{
+            border-bottom: 5px solid #94c93d;
+            width: max-content;
+            cursor: pointer;    
+        }       
+    }
+}
+.resourcesArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    height: 100%;
+    padding-left: 40px;
+    font-size: 1.3em;
+    color: white;
+    
+    .member{
+        .broker{
+            margin-left: 2em;
+        }
+    }
+}
+

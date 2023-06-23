@@ -1,0 +1,78 @@
+.container{
+   margin: 3em 0;
+   
+    .newsletter{
+        //background-color: yellow;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center;
+     //   padding: 3em;
+        
+        .iconSection{
+                
+            position: relative;
+            .icon{
+                position: absolute;
+                top:-2.5em;
+                right: -1.5em;
+            }
+        }
+    
+    
+        .box{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid #94c93d;
+            padding: 0.5em 2em;
+            width: 85%;
+    
+           
+            .titleSection{
+                flex: 3;
+                .title{
+                       padding-left: 0.5em;
+                       font-size: 2em;
+                       color: #19204b;
+                       font-weight: bold;
+                       text-align: center;
+                       //background-color: yellow;
+                   }
+            }
+            
+            .emailSection{
+                padding: 0 0 0 0.5em;
+                width: 20%;
+                flex: 2;
+    
+                
+                .emailField{
+                       border: 1px solid #19204b;
+                       height:2em;
+                       display: flex;
+                       justify-content: flex-start;
+                       align-items: center;
+                       padding-left: 1em;
+                       color:#58595b;   
+                   }  
+            }
+            
+            .signUpSection{
+                padding: 0 0 0 0.5em;
+                width: 15%;
+                flex:1;
+                .signUp{
+                       display: flex;
+                       flex-direction: row;
+                       align-items: center;
+                       justify-content: center;
+                       background-color: #19204b;
+                       color:#fff;
+                       font-size: 1em;
+                   }
+            }
+        }
+    }
+}

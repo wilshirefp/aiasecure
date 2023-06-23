@@ -1,0 +1,87 @@
+.container{
+    height:550px;
+    // background-image: url("/images/mountains.png");
+    background-image:url("/images/layers.png") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+
+    .wrapper{
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        justify-content: center;
+        align-items:center;
+       //align-content: center;
+    //    background-color: red;
+
+       .lRail{
+        flex: 2;
+        font-size: 40px;
+        
+
+        text-align: center;
+        font-weight: bold;
+        color: #21254b;
+        line-height: 0.5em;
+        //letter-spacing: 0.2em;
+        
+        .aia{
+            color: #a4c74c;
+        }
+       }
+       .rRail{
+        flex:3;
+        
+       }
+    }
+    
+
+    .title{
+        color: #19204b;
+        width: 70%;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: bold;
+        border-bottom: 3px solid #94c93d;
+        padding-bottom: 0.7em;
+        margin-bottom: 0.7em;
+
+
+    }
+    .desc{
+        display: flex;
+        flex-direction: column;
+        //justify-content: space-around;
+        color: #58595b;
+        font-size: 20px;
+        width: 65%;
+        
+        margin-bottom: 1.4em;
+        .reg{
+            color:#59595b;
+            font-weight: bold;
+        }
+    }
+    .button{
+        background-color: #19204b;
+        color: #fff;
+        width: 200px;
+        height:3em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .buttonText{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        margin-bottom: 1.2em;;
+    }
+}

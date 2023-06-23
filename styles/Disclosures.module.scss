@@ -1,0 +1,26 @@
+.container{
+    height:60px;
+    background-color: white;
+    width: 100%;
+
+    .disclosures{
+        margin: 1em 0;
+        text-align: center;
+        .listItem{
+            list-style: none;
+            display: inline;
+            font-size: 1.3em;
+            margin: 20px;
+            border-right: 1px solid #21254b;
+            //background-color: yellow;
+            padding-right: 2em;
+            &:nth-last-child(1){
+                
+                border: none;
+                
+            }
+        } 
+        
+    }
+    
+}
