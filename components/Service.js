@@ -89,7 +89,7 @@ export default function Service() {
                 <Image className={styles.icon} src="/images/decisionIcon.PNG" alt="Corporate Finace bulb image" width="55" height="60"></Image> 
                 <h2 className={styles.title}>Lending</h2></div>
               <div className={styles.desc}>
-                <p>We offer a wide range of lending services, including real estate finance, commercial mortgage lending, commercial and industrial lending. Our team of experienced professionals has a deep understanding of the lending market, which enables us to provide customized solutions that meet our clients' unique needs.</p>
+                <p>We offer a wide range of lending services, including real estate finance, commercial mortgage lending, commercial and industrial lending. Our team of experienced professionals has a deep understanding of the lending market, which enables us to provide customized solutions that meet our clients&apos; unique needs.</p>
               </div>
               <div className={styles.cta}>
                 <p className={styles.ctaLabel}>LEARN MORE</p>

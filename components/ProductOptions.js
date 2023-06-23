@@ -6,7 +6,7 @@ export default function ProductOptions({product}) {
     <div className={styles.container}>
 
     {product.links.map((item)=>(
-        <div className={styles.options}>
+        <div key={item.key} className={styles.options}>
         <div className={styles.wrapper}>
         <div className={styles.img}>
             <Image src={`/images/${item.image}`} width="275" height="175" ></Image>
