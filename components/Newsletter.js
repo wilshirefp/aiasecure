@@ -7,7 +7,7 @@ export default function Newsletter() {
     <div className={styles.container}>
         <div className={styles.newsletter}>
             <div className={styles.iconSection}>
-                <Image className={styles.icon} src="/images/envelopeIcon.PNG" alt="Corporate Finace bulb image" width="83" height="83"></Image>
+                <Image className={styles.icon} src="/images/envelopeicon1.png" alt="Corporate Finace bulb image" width="83" height="83"></Image>
             </div>
             <div className={styles.box}>
                 <div className={styles.titleSection}>
