@@ -79,7 +79,7 @@ export const data = [
     {
         id: 22,
         name:"mergers-acquisitions",
-        title:"MERGERS ACQUISITIONS",
+        title:"MERGERS & ACQUISITIONS",
         label:"mergers and acquisitions",
         lableAbbr:"",
         ctaLabel:"SPEAK TO A BANKER",
@@ -158,11 +158,11 @@ export const data = [
         id: 24,
         name:"lending",
         title:"Lending",
-        label:"lending",
+        label:"",
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
         subTitle:"Delivering Valuable Guidance",
-        desc:"AIA SECURITIES LLC (“AIA”) understands that access to capital is essential to the success of any business. We pride ourselves on speed, efficiency, and flexibility to bring our clients certainty of execution in meeting their financing needss",
+        desc:"AIA SECURITIES LLC (“AIA”) understands that access to capital is essential to the success of any business. We pride ourselves on speed, efficiency, and flexibility to bring our clients certainty of execution in meeting their financing needs.",
         desc2:"",
         hero:"corp-fin-hero.png",
         links:[
