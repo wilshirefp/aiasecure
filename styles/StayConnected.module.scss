@@ -73,6 +73,29 @@
             font-weight: bold;
         }
         //opacity: 1 !important;
-        margin-bottom: 1.2em;;
+        margin-bottom: 1.2em;
+        &:hover{
+            background-color: #94c93d;
+            
+            cursor: pointer;
+            transition: all 0.5s ease;
+            .buttonText{
+                color: white;
+            }
+        }
     }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        .wrapper{
+            .form{
+                width: 800px;
+            }
+        }
+
+        .button{
+            width: 350px;
+        }
+    }
+    
 }

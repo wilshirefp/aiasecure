@@ -24,3 +24,32 @@
     }
     
 }
+@media screen and (max-width: 1200px){
+    .container{
+       .disclosures{
+        .listItem{
+            font-size: 1em;
+        }
+       }
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .container{
+        color:yellow
+    }
+    
+}
+@media screen and (max-width: 850px){
+    .container{
+        color:black
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        color:purple
+        
+    }
+}

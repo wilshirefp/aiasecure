@@ -19,16 +19,29 @@
         justify-content: space-around;
         justify-content: center;
         align-items:center;
-       //align-content: center;
-    //    background-color: red;
 
+        .brokerCheck{
+            //border-top: 1px solid #a4c74c;
+            //width: 90%;
+            font-size: 0.5em;
+            font-weight: normal;
+        }
+        .brokerBorder{
+            border-bottom: 5px solid #a4c74c;
+            color: #59595b;
+            // height: 5px;
+             width: 35%;
+           //  margin: 0 30%;
+            // background-color: #a4c74c;
+        }
        .lRail{
         flex: 2;
-        font-size: 40px;
+        font-size: 45px;
         
 
-        text-align: center;
+        text-align:left;
         font-weight: bold;
+        font-weight: 1000;
         color: #21254b;
         line-height: 0.5em;
         //letter-spacing: 0.2em;
@@ -82,6 +95,49 @@
             font-size: 20px;
             font-weight: bold;
         }
-        margin-bottom: 1.2em;;
+        margin-bottom: 1.2em;
+        &:hover{
+            background-color: #94c93d;
+            
+            cursor: pointer;
+            transition: all 0.5s ease;
+            .buttonText{
+                color: white;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1200px){
+    .container{
+        padding-top: 20px;
+    padding-bottom: 30px;
+       color: #94c93d;
+       .title{
+        width: 90%;
+        font-size: 35px;
+       }
+       .desc{
+        width: 90%;
+       }
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .container{
+        color:yellow
+    }
+    
+}
+@media screen and (max-width: 850px){
+    .container{
+        color:black
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        color:purple
+        
     }
 }

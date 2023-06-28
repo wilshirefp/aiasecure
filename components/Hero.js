@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Hero.module.scss'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -11,9 +12,9 @@ export default function Hero() {
             <div className={styles.cta}>
                 {/* <div className={styles.lBorder}></div> */}
                 <p className={styles.desc}>AIA Securities is an investment banking firm providing customized capital solutions and alternative investment opportunities.</p>
-                <div className={styles.button}>
-                  <p className={styles.buttonText}>BEGIN</p>
-                </div>
+                <Link href={"/services"}>  <div className={styles.button}>
+                    <p className={styles.buttonText}>BEGIN</p>
+                </div></Link>
             </div>
     
         </div>

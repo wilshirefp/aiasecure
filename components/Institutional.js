@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Institutional.module.scss'
 import Image from 'next/image'
-
+import Link from 'next/link'
 export default function Institutional() {
   return (
     <div className={styles.container}>
@@ -16,9 +16,11 @@ export default function Institutional() {
                 <h2 className={styles.title}>Institutional Sophistication with an Entrepreneurial Approach</h2>
                 </div>
                 <p className={styles.desc}>A|A Securities provides a range of investment, advisory, and financial services, led by a team of alternative investment advisors with deep industry knowledge and a solutions-focused approach.</p>
-                <div className={styles.button}>
-                    <p className={styles.buttonText}>LEARN MORE</p>
-                </div>
+               <Link href={"/services"}> 
+                    <div className={styles.button}>
+                        <p className={styles.buttonText}>LEARN MORE</p>
+                    </div>
+                </Link>
             </div>
         </div>
     </div>

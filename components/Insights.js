@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/Insights.module.scss'
+import Link from 'next/link'
 
 export default function Insights() {
   return (
@@ -11,8 +12,10 @@ export default function Insights() {
           <p>can help you</p>
           <p>plan for</p>
           <p>what’s next.</p>
-          
+          <div className={styles.brokerBorder}></div>
+          <Link href={"https://brokercheck.finra.org/"}><p className={styles.brokerCheck}>Broker Check</p></Link>  
         </div>
+        
         <div className={styles.rRail}>
           <div className={styles.item}>
                   <div className={styles.border}>

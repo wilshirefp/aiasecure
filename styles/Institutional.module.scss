@@ -4,32 +4,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    //justify-content: space-between;
     margin: 3.5em 0;
     position: relative;
-// background-color: yellow;
     .wrapper{
         width: 85%;
         display: flex;
         justify-content: center;
         align-items:center;
        align-content: center;
-        // background-color: red;
-        
+       
     }
 
     img{
         align-items: center;
         justify-content: center;
-        //padding: 0 0 0 30%;
-       // margin-left: 150px;
         margin-right: 90px;
-        ///background-color: red;
     }
 
     .title{
         color: #19204b;
-        width: 70%;
+        width: 80%;
         font-size: 45px;
         font-family: Arial, Helvetica, sans-serif;
         font-size: bold;
@@ -42,7 +36,7 @@
     .desc{
         color: #58595b;
         font-size: 25px;
-        width: 65%;
+        width: 85%;
         margin-bottom: 2.3em;
     }
     .button{
@@ -57,8 +51,61 @@
             font-size: 20px;
             font-weight: bold;
         }
-        margin-bottom: 1.2em;;
+        margin-bottom: 1.2em;
+        &:hover{
+            background-color: #94c93d;
+            cursor: pointer;
+            transition: all 0.5s ease;
+        }
     }
     
     
+}
+@media screen and (max-width: 1200px){
+    .container{
+       //background-color: #94c93d;
+
+       .wrapper{
+        width: 95%;
+       
+        .title{
+            width: 90%;
+            font-size: 25px;
+            margin-bottom: 0;
+
+        }
+        .desc{
+            width: 90%;
+            font-size: 23px;
+        }
+        .button{
+            height: 2.5em;
+            width: 170px;
+            .buttonText{
+                font-size: 18px;
+            }
+        }
+
+    }
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .container{
+        color:yellow
+    }
+    
+}
+@media screen and (max-width: 850px){
+    .container{
+        color:black
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        color:purple
+        
+    }
 }
