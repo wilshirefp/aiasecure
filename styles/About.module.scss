@@ -1,3 +1,27 @@
-.Container{
+.container{
     padding: 0;
+    position: relative;
+    .modal{
+        background-color: #fff;
+        
+        height: calc(100vh - 50px);   
+        width: 30vw;
+        position: absolute;
+        //top: 0;
+        color: #58595b;
+        font-size: 1.3em;
+        z-index: 8888;
+        .modalTitle{
+            color: #002230;
+            font-size: bold;
+            font-weight: 600;
+            font-size: 1.3em;
+            margin-bottom: 1em;
+          // padding: 0;
+        }
+        padding: 10px 30px;
+
+    }
+    // .test{background-color: red;
+    // color: red;}
 }

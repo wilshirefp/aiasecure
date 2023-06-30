@@ -1,6 +1,7 @@
 .container{
     background-color: #f6f6f6;
-    height:550px;
+     height:550px;
+    //height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,6 +12,25 @@
     position: relative;
     margin-top: 40px;
 
+    .modal{
+        background-color: #fff;
+        height: 100vh;   
+        width: 30vw;
+        position: absolute;
+        top: 0;
+        color: #58595b;
+        font-size: 1.3em;
+        .modalTitle{
+            color: #002230;
+            font-size: bold;
+            font-weight: 600;
+            font-size: 1.3em;
+            margin-bottom: 1em;
+          // padding: 0;
+        }
+        padding: 10px 30px;
+
+    }
     .wrapper{
         width: 40%;
          display: flex;

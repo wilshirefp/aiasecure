@@ -10,6 +10,8 @@ import Leadership from '../components/Leadership';
 import AboutGuidance from '../components/AboutGuidance';
 
 export default function about() {
+  //const [sharedState, setSharedState] = useState(false);
+  // const [open, setOpen] = useState(false)
   return (
     <div className={styles.container}>
         <Head>
@@ -24,6 +26,9 @@ export default function about() {
         <AboutGuidance/>
         
         <Newsletter />
+        
+        
     </div>
+    
   )
 }
