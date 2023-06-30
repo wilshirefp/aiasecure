@@ -11,7 +11,7 @@ export default function contact() {
   return (
     <div className={styles.container}>
         <Head>
-            <title>A|A Securities - Contact</title>
+            <title>AIA Securities - Contact</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <meta name="description" content="Alternative Investment Advisors" />
             <link rel="icon" href="/favicon.ico" />

@@ -1,0 +1,48 @@
+.container{
+    background-color: #f6f6f6;
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 40px;
+
+    .wrapper{
+        width: 40%;
+         display: flex;
+         flex-direction: column;
+    }
+    .leaders{
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+              
+        .leader{
+            .info{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                font-weight: bold;
+                font-size: 1.1em;
+            }
+        }
+    }
+    .brokerCheck{
+        border-top: 1px solid #a4c74c;
+        width: max-content;
+        font-size: 1.3em;
+        font-weight: normal;
+        color: #58595b;
+    }
+
+    .title{
+        font-size: 2em;
+        color: #002230;
+        text-align: center;
+    }
+}

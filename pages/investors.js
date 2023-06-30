@@ -13,7 +13,7 @@ export default function investors() {
   return (
     <div className={styles.container}>
         <Head>
-            <title>A|A Securities</title>
+            <title>AIA Securities</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <meta name="description" content="Alternative Investment Advisors" />
             <link rel="icon" href="/favicon.ico" />
