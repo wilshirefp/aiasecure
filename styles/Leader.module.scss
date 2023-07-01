@@ -1,33 +1,65 @@
 .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    // height: 100vh;
+
     padding-top: 30px;
     margin: 10px 100px;
     
+    .hero{
+         height:100px;
+
+        padding: 0;
+        background-color: rgb(16, 16, 118);
+
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        border-bottom: 5px solid #94c93d;
+    
+    
+        .wrapper{
+            //padding: 120px 145px 0px;
+            text-align: center;
+    
+            .title{
+                font-weight: bold;
+                font-size: 3em;
+                
+            }
+        }
+    }
+    .profile{
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
     .leader{
         margin-left: 30px;
         width: 60%;
         
         background-color: #fff;
         height: 100vh;   
-        //width: 30vw;
-        //position: absolute;
-        //top: 0;
-        color: #58595b;
-        font-size: 1.1em;
+
+        color: #1d1f2a;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: "Roboto",sans-serif;
         .name{
             color:#002230;
-            font-size: 1.4em;
+            font-size: 1.8rem;
             font-weight: 600;
             margin:0;
+            font-family: "Poppins";
         }
         .nameTitle{
             margin-bottom: 1em;
             color: #002230;
-            font-size: 1.3em;
+            font-size: 1.1em;
             margin-top: 0;
+            font-style: italic;
+
             
         }
         .modalTitle{
@@ -36,6 +68,7 @@
             font-weight: 600;
             font-size: 1.3em;
             margin-bottom: 1em;
+            font-family: "Poppins";
           // padding: 0;
         }
         //padding: 10px 30px;

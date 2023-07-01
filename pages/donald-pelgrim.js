@@ -5,6 +5,17 @@ import Image from 'next/image'
 export default function DonaldPelgrim() {
   return (
     <div className={styles.container}>
+      <div className={styles.hero}>
+      <div className={styles.wrapper}>
+            <h1 className={styles.title}>ABOUT DON PELGRIM</h1>
+            <div className={styles.border}>
+            </div>
+            {/* <div className={styles.button}>
+                <p className={styles.buttonText}>SPEAK TO A BANKER</p>
+            </div> */}
+        </div>
+        </div>
+        <div className={styles.profile}>
         <Image src="/images/don.png" width="200" height="200" ></Image>
         <div className={styles.leader}>
             <p className={styles.name}>Donald H. Pelgrim, Jr., Esq.</p>
@@ -28,6 +39,7 @@ export default function DonaldPelgrim() {
             <p>• State Bar of California</p>
 
 
+        </div>
         </div>
     </div>
   )
