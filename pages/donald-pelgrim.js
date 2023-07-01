@@ -7,7 +7,7 @@ export default function DonaldPelgrim() {
     <div className={styles.container}>
       <div className={styles.hero}>
       <div className={styles.wrapper}>
-            <h1 className={styles.title}>ABOUT DON PELGRIM</h1>
+            <h1 className={styles.title}>ABOUT DONALD PELGRIM</h1>
             <div className={styles.border}>
             </div>
             {/* <div className={styles.button}>
@@ -16,7 +16,7 @@ export default function DonaldPelgrim() {
         </div>
         </div>
         <div className={styles.profile}>
-        <Image src="/images/don.png" width="200" height="200" ></Image>
+        <Image src="/images/don.png" width="300" height="300" ></Image>
         <div className={styles.leader}>
             <p className={styles.name}>Donald H. Pelgrim, Jr., Esq.</p>
             <p className={styles.nameTitle}>CEO</p>
@@ -25,19 +25,20 @@ export default function DonaldPelgrim() {
             <p>• Juris Doctorate from Loyola Law School of Los Angeles</p>
             <p>• Bachelor of Business Administration from Hofstra University</p>
             <p className={styles.modalTitle}>LICENSES</p>
-            <p className={styles.modalTitle}>SECURITIES:</p>
-            <p>• Series 24 - General Securities Principal</p>
-            <p>• Series  7 - General Securities Representative</p>
-            <p>• Series  66 – NASAA Uniform Combined State Securities License</p>
-            
-            <p className={styles.modalTitle}>REAL ESTATE:</p>
-            <p>• California Real Estate Brokers License</p>
-            <p>• California Finance Lenders License</p>
-            <p>• Mortgage Originator (NMLS)</p>
+            <div className={styles.licArea}>
+              <p className={styles.modalTitle}>SECURITIES:</p>
+              <p>• Series 24 - General Securities Principal</p>
+              <p>• Series  7 - General Securities Representative</p>
+              <p>• Series  66 – NASAA Uniform Combined State Securities License</p>
+              
+              <p className={styles.modalTitle}>REAL ESTATE:</p>
+              <p>• California Real Estate Brokers License</p>
+              <p>• California Finance Lenders License</p>
+              <p>• Mortgage Originator (NMLS)</p>
 
-            <p className={styles.modalTitle}>LAW:</p>
-            <p>• State Bar of California</p>
-
+              <p className={styles.modalTitle}>LAW:</p>
+              <p>• State Bar of California</p>
+            </div>
 
         </div>
         </div>

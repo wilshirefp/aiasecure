@@ -1,17 +1,13 @@
 .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    padding-top: 30px;
-    margin: 10px 100px;
     
     .hero{
-         height:100px;
-
+        // height:400px;
+        min-height: 100vh-35vh;
+        //min-height: 100vh-60vh;
         padding: 0;
-        background-color: rgb(16, 16, 118);
-
+        background-image:url("/images/corp-fin-hero.png") ;
+        background-repeat: no-repeat;
+        background-size:cover;
         color: white;
         display: flex;
         flex-direction: column;
@@ -20,35 +16,84 @@
     
     
         .wrapper{
-            //padding: 120px 145px 0px;
-            text-align: center;
+            padding: 120px 145px 0px;
     
             .title{
                 font-weight: bold;
                 font-size: 3em;
-                
+            }
+    
+            .border{
+                border-top: 5px solid #94c93d;
+                width: 30%;
+               padding-bottom: 2.5em;
+    
+            }
+            
+            .button{
+               border: 2.5px solid #fff;
+                color: #fff;
+                width: 25%;
+                height:2.5em;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .buttonText{
+                    font-size: 16px;
+                    font-weight: bold;
+                }
             }
         }
     }
+
+    // .hero{
+    //     min-height: 100vh-35vh;
+    //     //min-height: 100vh-60vh;
+    //     padding: 0;
+    //     background-image:url("/images/services-hero-v2.png") ;
+    //     background-repeat: no-repeat;
+    //     background-size:cover;
+    //     color: white;
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: baseline;
+    //     border-bottom: 5px solid #94c93d;
+    
+    
+    //     .wrapper{
+    //         padding: 120px 145px 0px;
+    
+    //         .title{
+    //             font-weight: bold;
+    //             font-size: 3em;
+                
+    //         }
+    //     }
+    // }
     .profile{
         display: flex;
         flex-direction: row;
+        justify-content: center;
         margin-top: 40px;
     }
     .leader{
-        margin-left: 30px;
+        margin-left: 50px;
         width: 60%;
-        
+        padding: 0 30px;
         background-color: #fff;
-        height: 100vh;   
+       // height: 100vh;   
 
         color: #1d1f2a;
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: 400;
         font-family: "Roboto",sans-serif;
+
+        .licArea{
+            padding-left: 20px;
+        }
         .name{
             color:#002230;
-            font-size: 1.8rem;
+            font-size: 2rem;
             font-weight: 600;
             margin:0;
             font-family: "Poppins";
@@ -66,7 +111,7 @@
             color: #002230;
             font-size: bold;
             font-weight: 600;
-            font-size: 1.3em;
+            font-size: 1.5em;
             margin-bottom: 1em;
             font-family: "Poppins";
           // padding: 0;
