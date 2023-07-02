@@ -11,22 +11,32 @@ export default function Leadership({setOpen,Open}) {
         <h2 className={styles.title}>Executive Leadership</h2>
         <div className={styles.leaders}>
             <div className={styles.leader}>
-            <Image src="/images/don.png" width="300" height="300" ></Image>
-            <div className={styles.info}>
-                <div className={styles.leaderBorder}></div>
-                <Link href={"/donald-pelgrim"}><span>Donald H. Pelgrim, Jr., Esq.</span></Link>
-                <span>CEO</span>
+              <Link key={1} href={"/donald-pelgrim"}>
+            <div className={styles.card}>
+              <Image className={styles.cardImage} src="/images/don.png" width="300" height="300" ></Image>
+              <div className={styles.info}>
+                  <div className={styles.leaderBorder}></div>
+                  {/* <Link href={"/donald-pelgrim"}><span>Donald H. Pelgrim, Jr., Esq.</span></Link> */}
+                  <span>Donald H. Pelgrim, Jr., Esq.</span>
+                  <span>CEO</span>
+              </div>
             </div>
-            
+            </Link>
+
             </div>
             <div className={styles.leader}>
-            <Image src="/images/kari.png" width="300" height="300" ></Image>
+            <Link key={2} href={"/kari-laitinen"}>
+            <div className={styles.card}>
+            <Image className={styles.cardImage} src="/images/kari.png" width="300" height="300" ></Image>
             <div className={styles.info}>
                 <div className={styles.leaderBorder}></div>
                 <span>Kari M. Laitinen, Executive JD, MBA</span>
                 <span>Executive Vice President &</span>
                 <span>Chief Compliance Officer</span>
             </div>
+            </div>
+            </Link>
+
             </div>
         </div>
         <div className={styles.brokerBorder}></div>
