@@ -26,9 +26,9 @@ export default function KariLaitinen() {
             <p className={styles.info}>Mr. Laitinen has structured financial products with international investment asset managers and banks, performed business valuations, and raised through accredited high net worth investors (e.g., over 100 million USD) and qualified institutional capital for corporate growth strategies. He has also directly managed and audited import export business, customer pricing and internal yield vendor competitive analysis, cost accounting, purchased and analyzed firm inventory pricing and trends, labor including piece work price modeling, lawsuit and settlement, negotiated new vendor agreements and contracts, insurance, and logistics.<br/><br/></p>
             <p className={styles.info}>As a dynamic lecturer he has taught over 5,000 business professionals seeking financial security licensing (e.g., Series 4,6,7,8,9,10,11,24,26,27/28, 51, 52, 53,55, 53,54,55,72), and teaches master of business (MBA) courses (e.g., Financial Management of the Firm, Business Law, Business Plans, Global Strategy, Professionally Applied Projects) as an adjunct professor where he hand-picked dozens of talented students to work in portfolio companies over the last decade. Mr. Laitinen is also skilled at building dynamic financial models which investors, company executives, and business owners rely on in making intelligent, informed financial and strategic decisions.</p>
             <p className={styles.modalTitle}>EDUCATION</p>
-            <p>• Executive Juris Doctorate from Concord Law School</p>
-            <p>• MBA with an emphasis in Finance from Pepperdine University’s Graziadio School of Business</p>
-            <p>• Bachelor of Arts Undergraduate degree in History and a Minor in Business Marketing from Brigham Young University (BYU)</p>
+            <p className={styles.info}>• Executive Juris Doctorate from Concord Law School</p>
+            <p className={styles.info}>• MBA with an emphasis in Finance from Pepperdine University’s Graziadio School of Business</p>
+            <p className={styles.info}>• Bachelor of Arts Undergraduate degree in History and a Minor in Business Marketing from Brigham Young University (BYU)</p>
             <p className={styles.modalTitle}>LICENSES</p>
             <div className={styles.licArea}>
               <p className={styles.modalTitle}></p>

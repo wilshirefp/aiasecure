@@ -24,8 +24,8 @@ export default function DonaldPelgrim() {
             <p className={styles.info}>As an attorney, Mr. Pelgrim practiced corporate, real estate, and real estate finance law at Brobeck, Phleger & Harrison, LLP and Rutan & Tucker, LLP. He started his banking career with the Dreyfus Corporation, worked as a loan officer with Hawthorne Savings, FSB, and was the Chief Administrative Officer and Corporate Secretary at Vineyard Bank, NA and Vineyard National Bancorp, as well as Opportunity Bank, NA and Opportunity Bancshares.<br/><br/></p>
             <p className={styles.info}>Mr. Pelgrim has extensive experience in real estate finance, the acquisition and disposition of real estate, real estate investment, loan workouts and the resolution of problem assets. His experience extends to investment banking, finance, mergers and acquisitions, venture capital, private equity, capital markets, corporate governance and regulatory issues affecting public and privately held companies.</p>
             <p className={styles.modalTitle}>EDUCATION</p>
-            <p>• Juris Doctorate from Loyola Law School of Los Angeles</p>
-            <p>• Bachelor of Business Administration from Hofstra University</p>
+            <p className={styles.info}>• Juris Doctorate from Loyola Law School of Los Angeles</p>
+            <p className={styles.info}>• Bachelor of Business Administration from Hofstra University</p>
             <p className={styles.modalTitle}>LICENSES</p>
             <div className={styles.licArea}>
               <p className={styles.modalTitle}>SECURITIES:</p>
