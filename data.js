@@ -49,7 +49,7 @@ export const data = [
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
         subTitle:"Delivering Valuable Guidance",
-        desc:"AIA SECURITIES LLC (“AIA”) delivers ",
+        desc:"AIA Securities delivers ",
         desc2:" services to help our clients access the capital they need to achieve their financial objectives. Based on our broad scope of experience planning, negotiating, documenting, forming, and implementing strategies across a variety of companies and partnerships, we offer a full range of capital raising services.",
         hero:"corp-fin-hero.png",
         links:[
@@ -85,7 +85,7 @@ export const data = [
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
         subTitle:"Delivering Valuable Guidance",
-        desc:"At AIA SECURITIES LLC (“AIA”) we understand that ",
+        desc:"At AIA Securities we understand that ",
         desc2:" can be complex transactions that require extensive experience and knowledge to execute successfully. We are committed to seeking the most effective avenue for adding strategic value to our clients’ companies. From inspiration to implementation, we help clients plan and execute every stage in the M&A process.",
         hero:"corp-fin-hero.png",
         links:[
@@ -127,7 +127,7 @@ export const data = [
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
         subTitle:"Delivering Valuable Guidance",
-        desc:"AIA SECURITIES LLC (“AIA”) delivers ",
+        desc:"AIA Securities delivers ",
         desc2:" services to help our clients access the capital they need to achieve their financial objectives. Based on our broad scope of experience planning, negotiating, documenting, forming, and implementing strategies across a variety of companies and partnerships, we offer a full range of capital raising services.",
         hero:"corp-fin-hero.png",
         links:[
@@ -162,7 +162,7 @@ export const data = [
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
         subTitle:"Delivering Valuable Guidance",
-        desc:"AIA SECURITIES LLC (“AIA”) understands that access to capital is essential to the success of any business. We pride ourselves on speed, efficiency, and flexibility to bring our clients certainty of execution in meeting their financing needs.",
+        desc:"AIA Securities understands that access to capital is essential to the success of any business. We pride ourselves on speed, efficiency, and flexibility to bring our clients certainty of execution in meeting their financing needs.",
         desc2:"",
         hero:"corp-fin-hero.png",
         links:[

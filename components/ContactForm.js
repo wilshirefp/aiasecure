@@ -22,7 +22,7 @@ export default function ContactForm() {
                 <Image src="/images/map.png" fill={true} ></Image>
             </div>
         
-        <p className={styles.contactInfo}>Contact us at (877) 247-7557 or info@AIASecure.com to learn more about AIA Securities.</p>
+        <p className={styles.contactInfo}>Contact us at (877) 247-7557 or info@aiasecure.com to learn more about AIA Securities.</p>
         </div>
     </div>
   )

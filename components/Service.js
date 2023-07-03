@@ -28,7 +28,7 @@ export default function Service() {
           <div className={styles.cards}>
             <div className={styles.card}>
               <div className={styles.titleSection}>
-                <Image className={styles.icon} src="/images/lightbulb.PNG" alt="Corporate Finace bulb image" width="59" height="60"></Image> 
+                <Image className={styles.icon} src="/images/lightbulb.png" alt="Corporate Finace bulb image" width="59" height="60"></Image> 
                 <h2 className={styles.title}>Corporate Finance</h2></div>
               <div className={styles.desc}>
                 <p>We help companies raise capital by placing debt and equity securities with institutional investors. Our expertise in this area allows us to execute transactions that maximize value for our clients.</p>
@@ -40,7 +40,7 @@ export default function Service() {
             </div>
             <div className={styles.card}>
               <div className={styles.titleSection}>
-                <Image className={styles.icon} src="/images/chartIcon2.PNG" alt="Corporate Finace bulb image" width="65" height="58"></Image> 
+                <Image className={styles.icon} src="/images/charticon3.png" alt="Corporate Finace bulb image" width="65" height="58"></Image> 
                 <h2 className={styles.title}>Capital Raising</h2></div>
               <div className={styles.desc}>
                 <p>We have a proven track record of successfully structuring and executing complex financing solutions such as private placements, syndicated debt and equity, joint ventures, and other structures. Our deep relationships with investors allow us to provide our clients with access to the capital they need to grow their businesses.</p>
@@ -57,7 +57,7 @@ export default function Service() {
           <div className={styles.cards}>
             <div className={styles.card}>
               <div className={styles.titleSection}>
-                <Image className={styles.icon} src="/images/maIcon.PNG" alt="Corporate Finace bulb image" width="58" height="58"></Image> 
+                <Image className={styles.icon} src="/images/maicon2.png" alt="Corporate Finace bulb image" width="58" height="58"></Image> 
                 <h2 className={styles.title}>Mergers &#x26; Acquisitions</h2></div>
               <div className={styles.desc}>
                 <p>Our team has extensive experience in providing sell-side and buy-side representation for middle market and boutique market enterprises. We work closely with our clients to identify potential targets, negotiate the best terms, and structure transactions that align with their strategic goals.</p>
@@ -69,7 +69,7 @@ export default function Service() {
             </div>
             <div className={styles.card}>
               <div className={styles.titleSection}>
-                <Image className={styles.icon} src="/images/dd-icon.PNG" alt="Corporate Finace bulb image" width="56" height="56"></Image> 
+                <Image className={styles.icon} src="/images/dd-icon.png" alt="Corporate Finace bulb image" width="56" height="56"></Image> 
                 <h2 className={styles.title}>Due Diligence &#x26; Valuation</h2></div>
               <div className={styles.desc}>
                 <p>We provide comprehensive due diligence, analysis, consultation, and valuation for small and medium acquisitions and investments. Our team of experts is equipped to provide valuable insights that help our clients make informed decisions.</p>
@@ -86,7 +86,7 @@ export default function Service() {
           <div className={styles.cards}>
             <div className={styles.card}>
               <div className={styles.titleSection}>
-                <Image className={styles.icon} src="/images/decisionIcon.PNG" alt="Corporate Finace bulb image" width="55" height="60"></Image> 
+                <Image className={styles.icon} src="/images/decisionIcon.png" alt="Corporate Finace bulb image" width="55" height="60"></Image> 
                 <h2 className={styles.title}>Lending</h2></div>
               <div className={styles.desc}>
                 <p>We offer a wide range of lending services, including real estate finance, commercial mortgage lending, commercial and industrial lending. Our team of experienced professionals has a deep understanding of the lending market, which enables us to provide customized solutions that meet our clients&apos; unique needs.</p>
@@ -100,7 +100,7 @@ export default function Service() {
 
         </div>
         <div className={styles.decades}>
-        <Image className={styles.icon} src="/images/outsideBuilding.PNG" alt="Corporate Finace bulb image" width="439" height="518"></Image>
+        <Image className={styles.icon} src="/images/outsideBuilding.png" alt="Corporate Finace bulb image" width="439" height="518"></Image>
         <div className={styles.product}>
               <div className={styles.titleSection}>
                 <h2 className={styles.title}>Decades of Experience Investing Across Diverse Asset Classes &#x26; Market Cycles</h2></div>
@@ -115,7 +115,7 @@ export default function Service() {
         </div>
         <div className={styles.newsletter}>
           <div className={styles.iconSection}>
-            <Image className={styles.icon} src="/images/envelopeIcon.PNG" alt="Corporate Finace bulb image" width="83" height="83"></Image>
+            <Image className={styles.icon} src="/images/envelopeicon1.png" alt="Corporate Finace bulb image" width="83" height="83"></Image>
           </div>
           <div className={styles.box}>
             <div className={styles.titleSection}>
