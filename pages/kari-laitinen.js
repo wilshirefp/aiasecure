@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/Leader.module.scss'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 export default function KariLaitinen() {
   return (
@@ -38,7 +38,14 @@ export default function KariLaitinen() {
               <p>• Series  79 - Investment Banking Representative state and federal licenses</p>
               
             </div>
-
+            
+            <div className={styles.links}>
+                <div className={styles.cta}>
+                <Link href={"/contact"}><p className={styles.ctaLabel}>CONTACT</p></Link>
+              </div>
+              <div className={styles.brokerBorder}></div>
+                <Link href={"https://brokercheck.finra.org/"}><p className={styles.brokerCheck}>Broker Check</p></Link>
+          </div>
         </div>
         </div>
     </div>

@@ -119,12 +119,62 @@
             font-family: "Poppins";
           // padding: 0;
         }
+        .cat{
+            color: #002230;
+            font-size: bold;
+            font-weight: 600;
+            font-size: 1.2rem;
+            margin-bottom: 1em;
+            font-family: "Poppins";
+        }
         //padding: 10px 30px;
         .info{
             margin: 0;
             color: #58595b;
             font-family: "Poppins";
         }
+    }
+    .brokerCheck{
+        border-top: 1px solid #a4c74c;
+        width: max-content;
+        font-size: 1.3rem;
+        font-weight: normal;
+        color: #58595b;
+    }
+    
+    .links{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .cta{
+        display: flex;
+        flex-direction: row;
+        font-weight: bold;
+        font-size: 1.2rem;
+        //width: 100%;
+        width: 200px;
+        height:3em;
+      //  display: flex;
+        align-items: center;
+        
+        //justify-content: space-between;
+        
+        .ctaLabel{
+            padding: 0.5em 1em;
+            display: flex;
+            justify-content: center;
+            color: #fff;
+            background-color: #19204b;
+            width: 200px;
+
+            
+
+        }
+        .symbol{
+            color: #94c93d;
+        }
+        
     }
     
 }
