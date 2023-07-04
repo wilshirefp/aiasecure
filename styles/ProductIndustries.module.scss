@@ -52,6 +52,15 @@
                 font-weight: bold;
                 color: #19204b;
             }
+            &:hover{
+                background-color: #94c93d;
+                
+                cursor: pointer;
+                transition: all 0.5s ease;
+                .buttonText{
+                    color: white;
+                }
+            }
             
         }
     }

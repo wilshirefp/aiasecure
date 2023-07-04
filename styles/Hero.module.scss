@@ -10,6 +10,7 @@
     justify-content:space-evenly;
     border-bottom: 5px solid #94c93d;
 
+    
     .wrapper{
         width: 85%;
         padding-top: 10%;
@@ -20,6 +21,12 @@
         .title{
             font-weight:bolder;
             font-size: 4.5em;
+            .copy{
+                font-size: 0.5em;
+                //color: red;
+                vertical-align: top;
+                 
+            }
         }
 
         .cta{

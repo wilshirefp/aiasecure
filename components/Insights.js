@@ -24,9 +24,11 @@ export default function Insights() {
                   <span className={styles.desc}>We deliver a full spectrum of financial services to guide clients through all stages of corporate transactions — from idea to execution and formation to exit.</span>
                   <span className={styles.desc}>AIA is committed to delivering superior service and customized solutions to our clients</span>
                   <span className={styles.desc}><span className={styles.reg}>Unlock Opportunity&reg;</span></span>
+                  <Link href={"/services"}>
                   <div className={styles.button}>
                       <p className={styles.buttonText}>LEARN MORE</p>
                   </div>
+                  </Link>
               </div>
         </div>
       </div>

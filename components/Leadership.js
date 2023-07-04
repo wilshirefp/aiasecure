@@ -19,6 +19,12 @@ export default function Leadership({setOpen,Open}) {
                   {/* <Link href={"/donald-pelgrim"}><span>Donald H. Pelgrim, Jr., Esq.</span></Link> */}
                   <span>Donald H. Pelgrim, Jr., Esq.</span>
                   <span>CEO</span>
+                  
+                    <div className={styles.cta}>
+                    <p className={styles.ctaLabel}>LEARN MORE</p>
+                    <p className={styles.symbol}>&#x3E;</p>
+                    </div>
+                  
               </div>
             </div>
             </Link>
@@ -33,6 +39,12 @@ export default function Leadership({setOpen,Open}) {
                 <span>Kari M. Laitinen, Executive JD, MBA</span>
                 <span>Executive Vice President &</span>
                 <span>Chief Compliance Officer</span>
+               
+                    <div className={styles.cta}>
+                      <p className={styles.ctaLabel}>LEARN MORE</p>
+                      <p className={styles.symbol}>&#x3E;</p>
+                    </div>
+               
             </div>
             </div>
             </Link>

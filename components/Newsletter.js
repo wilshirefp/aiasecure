@@ -15,8 +15,11 @@ export default function Newsletter() {
                 </div>
                 <div className={styles.emailSection}>
                 <div className={styles.emailField}>
+                        <input className={styles.email} name="email" placeholder='Enter your email' />
+                    </div>
+                {/* <div className={styles.emailField}>
                     <p>Enter your email</p>
-                </div>
+                </div> */}
                 </div>
                 <div className={styles.signUpSection}>
                 <div className={styles.signUp}>

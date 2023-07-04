@@ -42,6 +42,15 @@
                 font-size: 1.3em;
                 font-weight: bolder;
             }
+            &:hover{
+                background-color: #94c93d;
+                
+                cursor: pointer;
+                transition: all 0.5s ease;
+                // .buttonText{
+                //     color: white;
+                // }
+            }
             
         }
         }

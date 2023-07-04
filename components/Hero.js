@@ -8,7 +8,7 @@ export default function Hero() {
     <div className={styles.container}>
  
         <div className={styles.wrapper}>
-            <h1 className={styles.title}>UNLOCK OPPORTUNITY</h1>
+            <h1 className={styles.title}>UNLOCK OPPORTUNITY<span className={styles.copy}>&reg;</span></h1>
             <div className={styles.cta}>
                 {/* <div className={styles.lBorder}></div> */}
                 <p className={styles.desc}>AIA Securities is an investment banking firm providing customized capital solutions and alternative investment opportunities.</p>

@@ -9,7 +9,7 @@ const [open, setOpen] = useState(false);
   return (
     <div className={styles.container}>
         <Link href="/" passHref>
-            <Image className={styles.heroImage} src="/images/bluelogo1.png" alt="AA Securities Logo" width="350" height="70"></Image>
+            <Image className={styles.heroImage} src="/images/aia-securities-logo.png" alt="AA Securities Logo" width="350" height="70"></Image>
         </Link>
         {/* <div className={styles.item}> */}
             <ul className={styles.list}>

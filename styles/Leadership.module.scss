@@ -57,7 +57,22 @@
                      }
         }
         
-              
+        .cta{
+            display: flex;
+            flex-direction: row;
+            font-weight: bold;
+            font-size: 1.2rem;
+            justify-content: center;
+            .ctaLabel{
+                //padding-left: 3em;
+                padding-right: 0.5em;
+                color: #19204b;
+            }
+            .symbol{
+                color: #94c93d;
+            }
+            
+        }
         .leader{
             .info{
                 display: flex;

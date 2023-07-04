@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles/AboutGuidance.module.scss'
 import Image from 'next/image'
-
+import Link from 'next/link'
 export default function AboutGuidance() {
   return (
     <div className={styles.container}>
@@ -13,9 +13,11 @@ export default function AboutGuidance() {
               <div className={styles.desc}>
                 <p>AIA Securities offers a comprehensive range of corporate finance services to help our clients achieve their objectives. Our investment bankers embrace the intricacies of each situation and work closely with your team throughout the lifecycle of the transaction to help deliver positive results</p>
               </div>
+              <Link href={"/services"}>
               <div className={styles.cta}>
                 <p className={styles.ctaLabel}>Services</p>
               </div>
+              </Link>
             </div> 
         </div>
         
