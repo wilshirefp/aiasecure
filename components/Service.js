@@ -86,7 +86,7 @@ export default function Service() {
               <div className={styles.titleSection}>
               <div className={styles.head}>
                 <Image className={styles.icon} src="/images/dd-icon.png" alt="Corporate Finace bulb image" width="56" height="56"></Image> 
-                <h2 className={styles.title}>Due Diligence &#x26; Valuation</h2>
+                <h2 className={styles.title}>Due Diligence</h2>
                 </div>
                   <div className={styles.border}></div>
                 </div>

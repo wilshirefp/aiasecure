@@ -11,7 +11,7 @@ export default function ProductIndustries({product}) {
                 product.label ? (
                   <h2 className={styles.title}>Industries We Serve</h2>
                 ):(
-                  <h2 className={styles.title}>Unlock Opportunity®</h2>
+                  <h2 className={styles.title}>Unlock Opportunity<span className={styles.copy}>&reg;</span></h2>
                 )
               }
             
