@@ -14,7 +14,7 @@ export default function privacypolicy() {
         </Head>
         <div className={styles.hero}>
       <div className={styles.wrapper}>
-            <h1 className={styles.title}>PRIVACY POLICY</h1>
+            <h1 className={styles.title}>COOKIES POLICY</h1>
             <div className={styles.border}>
             </div>
         </div>
@@ -22,8 +22,8 @@ export default function privacypolicy() {
         
         <div className={styles.disclosures}>
         <div className={styles.version}>
-          <p className={styles.info}>Privacy Policy</p>
-          <p className={styles.info}>Updated: June 29, 2023</p>
+          <p className={styles.info}>Cookies Policy</p>
+          <p className={styles.info}>Last Updated June 29, 2023</p>
         </div>
         <div className={styles.items}>
             <p className={styles.modalTitle}>Consent</p>
@@ -38,7 +38,7 @@ export default function privacypolicy() {
             <p className={styles.info}>Below, we describe the categories of cookies AIA Securities, its affiliates, and its contractors use.</p>
             <p className={styles.modalTitle}>Performance Cookies</p>
             <p className={styles.info}>We make use of analytic cookies to analyze how our visitors use our Website and to monitor website performance. This allows us to provide a high-quality experience by customizing our offering and quickly identifying and fixing any issues that arise. For example, we might use performance cookies to keep track of which pages are most popular or which method of linking between pages is most effective and to determine why some pages are receiving error messages. We might also use these cookies to highlight articles or site services that we think will be of interest to you based on your usage of the Website. The information collected by these cookies is not associated with your personal information by us or by our contractors.<br/><br/>The Website (full and mobile) currently uses the following analytic:</p>
-            <Image src="/images/cookieperformance.png" width="1000" height="400" ></Image>
+            <Image src="/images/cookie-performance.png" width="1000" height="400" ></Image>
             <p className={styles.modalTitle}>HTML Email Web Beacons</p>
             <p className={styles.info}>Our emails may contain a single, campaign-unique &ldquo;web beacon pixel&ldquo; to tell us whether our emails are opened and verify any clicks through to links within the email. We may use this information for purposes including determining which of our emails are more interesting to you and to query whether users who do not open our emails wish to continue receiving them. The pixel will be deleted when you delete the email. If you do not wish the pixel to be downloaded to your device, you should select to receive emails from us in plain text rather than HTML.</p>
             <p className={styles.modalTitle}>Use of IP Addresses and Web Logs</p>
