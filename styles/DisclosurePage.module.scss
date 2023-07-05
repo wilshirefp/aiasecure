@@ -1,0 +1,64 @@
+.container{
+    margin-bottom: 20px;
+    .hero{
+        min-height: 100vh-35vh;
+        padding: 0;
+        background-image:url("/images/corp-fin-hero.png") ;
+        background-repeat: no-repeat;
+        background-size:cover;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        border-bottom: 5px solid #94c93d;
+
+        .wrapper{
+            padding: 120px 145px 0px;
+    
+            .title{
+                font-weight: bold;
+                font-size: 3em;
+                margin-top: 6em;
+            }
+    
+            .border{
+                border-top: 5px solid #94c93d;
+                width: 40%;
+               padding-bottom: 2.5em;
+            }
+        }
+    }
+    .modalTitle{
+        color: #002230;
+        font-size: bold;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-bottom: 1em;
+     font-family: "Arial";
+    }
+    .info{
+        margin: 0;
+        color: #58595b;
+     font-family: "Arial";
+    }
+    .disclosures{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 40px;
+
+
+        .items{
+            margin-left: 50px;
+            width: 60%;
+            padding: 0 30px;
+            background-color: #fff; 
+    
+            color: #1d1f2a;
+            font-size: 1.4rem;
+            font-weight: 400;
+            font-family: "Arial";
+        }
+
+    }
+}
