@@ -5,7 +5,7 @@ export default function ContactHero() {
   return (
     <div className={styles.container} >
     <div className={styles.wrapper}>
-            <h1 className={styles.title}>About</h1>
+            <h1 className={styles.title}>ABOUT</h1>
             <div className={styles.border}></div>
             <div className={styles.cta}>
                 <div className={styles.button}>

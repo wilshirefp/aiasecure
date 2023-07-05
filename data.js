@@ -122,7 +122,7 @@ export const data = [
     {
         id: 23,
         name:"due-diligence",
-        title:"Due Diligence",
+        title:"DUE DILIGENCE",
         label:"Due Diligence",
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
@@ -157,7 +157,7 @@ export const data = [
     {
         id: 24,
         name:"lending",
-        title:"Lending",
+        title:"LENDING",
         label:"",
         ctaLabel:"SPEAK TO A BANKER",
         ctaUrl:"",
