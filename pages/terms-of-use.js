@@ -23,7 +23,7 @@ export default function TermsOfUse() {
     
     <div className={styles.disclosures}>
     <div className={styles.version}>
-      <p className={styles.info}>Cookies Policy</p>
+      <p className={styles.info}>Terms of Use and Legal Notices</p>
       <p className={styles.info}>Last Updated June 29, 2023</p>
     </div>
     <div className={styles.items}>
