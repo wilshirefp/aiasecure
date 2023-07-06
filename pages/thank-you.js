@@ -15,7 +15,7 @@ export default function ThankYou() {
     </Head>
     <div className={styles.hero}>
   <div className={styles.wrapper}>
-        <h1 className={styles.title}>Thank You</h1>
+        <h1 className={styles.title}>THANK YOU</h1>
         <div className={styles.borderTH}>
         </div>
     </div>
