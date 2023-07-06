@@ -63,8 +63,8 @@ export default function privacypolicy() {
               <li className={styles.listItem}>to establish, exercise, or defend our legal rights or for the purpose of legal proceedings;</li>
               <li className={styles.listItem}>where the use of Personal Information, as described, is necessary for our legitimate business interests, such as:</li>
                 <ul>
-                  <li>allowing us to effectively and efficiently manage and administer the operation of our business; and</li>
-                  <li>maintaining compliance with internal policies and procedures</li>
+                  <li className={styles.listItem}>allowing us to effectively and efficiently manage and administer the operation of our business; and</li>
+                  <li className={styles.listItem}>maintaining compliance with internal policies and procedures</li>
                 </ul>
             </ul>
             {/* <p className={styles.infoList}>•  where we have obtained your consent;</p>

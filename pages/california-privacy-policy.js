@@ -42,46 +42,63 @@ export default function CaliforniaPrivacyPolicy() {
           <li className={styles.listItem}>Opt-in to certain financial incentive programs we may offer related to the collection, sale, or deletion of your Personal Information; and</li>
           <li className={styles.listItem}>Request deletion of your Personal Information by us and our service providers, in some circumstances.</li>
         </ul>
-        {/* <p className={styles.info}>•	Categories of Personal Information (as defined by applicable California law) collected, sold or disclosed by us;</p>
-        <p className={styles.info}>•	Purposes for which categories of Personal Information collected by us are used;</p>
-        <p className={styles.info}>•	Sources of information from which we collect Personal Information; and</p>
-        <p className={styles.info}>•	Specific pieces of Personal Information we have collected about you.</p>
-        <p className={styles.info}>•	In addition, if you are a California resident you may:</p>
-        <p className={styles.info}>•	Opt-out of the sale or disclosure of your Personal Information, in some circumstances;</p>
-        <p className={styles.info}>•	Opt-out of receiving marketing communications from us; however, you may still receive administrative communications regarding the Services;</p>
-        <p className={styles.info}>•	Opt-in to certain financial incentive programs we may offer related to the collection, sale, or deletion of your Personal Information; and</p>
-        <p className={styles.info}>•	Request deletion of your Personal Information by us and our service providers, in some circumstances.</p> */}
         <p className={styles.info}>You will not be discriminated against for exercising your rights under the California Consumer Privacy Act. Our privacy policy can be found at: https://aiasecure.com/privacy.</p>
+        
+        <span className={styles.listCA}>Category of personal information we may collect: Internet/Electronic Activity:</span>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>Categories of sources from which we may obtain your &ldquo;Identifiers&ldquo; include:
+          <ul>
+            <li>Directly from consumers</li>
+          </ul>
+          </li>
+          <li className={styles.listItem}>The purposes for collecting your &ldquo;Identifiers&ldquo; include:
+            <ul>
+              <li>Marketing purposes, including distribution of content as well as to respond to general inquiries.</li>
+            </ul>
+          </li>
+        </ul>
 
+        <span className={styles.listCA}>Category of personal information we may collect: Professional Information:</span>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>Categories of sources from which we may obtain your &ldquo;Professional Information&ldquo; include:
+          <ul>
+            <li>Directly from consumers</li>
+          </ul>
+          </li>
+          <li className={styles.listItem}>The purposes for collecting your &ldquo;Professional Information&ldquo; include:
+            <ul>
+              <li>Marketing purposes, including distribution of content as well as to respond to general inquiries.</li>
+            </ul>
+          </li>
+        </ul>
+        <p className={styles.info}>Here is information on whether we sell or share your personal information.</p>
+        <span className={styles.listCA}>Selling/sharing your personal information:</span>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>Categories of third parties we may sell your personal information to:
+          <ul>
+            <li>We do not sell personal information to third parties.</li>
+          </ul>
+          </li>
+          <li className={styles.listItem}>Categories of third parties we may otherwise share your personal information with:
+            <ul>
+              <li>Data analytics providers, Operating systems and platforms</li>
+            </ul>
+          </li>
+        </ul>
 
-        <p className={styles.modalTitle}>Collection of Personal Information from California Residents</p>
-        <p className={styles.info}>We have listed below the personal information we may have collected from California residents in the past 12 months.</p>
+        <p className={styles.modalTitle}>Requests</p>
+        <p className={styles.info}>You can make requests related to your California privacy rights:</p>
+        <p className={styles.info}>Call us at 877-247-7557</p>
+        <p className={styles.info}>Or you may email us at: admin@aiasecure.com</p>
+        <p className={styles.info}>Or, you may mail us at:  2 Venture Suite 430, Irvine, CA 92618</p>
+        <p className={styles.info}>Please be aware that we do not accept or process requests through other means (e.g., via fax, social media, email addresses, etc.).</p>
+        <p className={styles.info}>When you make a request, we may ask you to provide verifying information, such as your name, email, or phone number. We will review the information provided and may request additional information via email or other means to ensure we are interacting with the correct individual. Please also be aware that making any such request does not ensure complete or comprehensive removal or deletion of Personal Information or content you may have posted, and there may be circumstances in which the law does not require or allow us to fulfill your request.</p>
 
-        <p className={styles.modalTitle}>What Are Cookies?</p>
-        <p className={styles.info}>Cookies are text files containing small amounts of information that are downloaded to your device when you visit a website. Cookies are then sent back to the originating web domain on your subsequent visits to that domain. Most web pages contain elements from multiple web domains, so when you visit the Website, your browser may receive cookies from several sources.</p>
-        <p className={styles.info}>Cookies are useful because they allow a website to recognize a user&#39;s device. Cookies allow you to navigate between pages efficiently, remember preferences, and generally improve the user experience. They can also be used to tailor advertising to your interests through tracking your browsing across websites.</p>
-        <p className={styles.info}>Session cookies are deleted automatically when you close your browser, and persistent cookies remain on your device after the browser is closed (for example, to remember your user preferences when you return to the site).</p>
-        <p className={styles.modalTitle}>What Types of Cookies Does AIA Securities Use?</p>
-        <p className={styles.info}>Below, we describe the categories of cookies AIA Securities, its affiliates, and its contractors use.</p>
-        <p className={styles.modalTitle}>Performance Cookies</p>
-        <p className={styles.info}>We make use of analytic cookies to analyze how our visitors use our Website and to monitor website performance. This allows us to provide a high-quality experience by customizing our offering and quickly identifying and fixing any issues that arise. For example, we might use performance cookies to keep track of which pages are most popular or which method of linking between pages is most effective and to determine why some pages are receiving error messages. We might also use these cookies to highlight articles or site services that we think will be of interest to you based on your usage of the Website. The information collected by these cookies is not associated with your personal information by us or by our contractors.<br/><br/>The Website (full and mobile) currently uses the following analytic:</p>
-        <Image src="/images/cookie-performance.png" width="1000" height="400" ></Image>
-        <p className={styles.modalTitle}>HTML Email Web Beacons</p>
-        <p className={styles.info}>Our emails may contain a single, campaign-unique &ldquo;web beacon pixel&ldquo; to tell us whether our emails are opened and verify any clicks through to links within the email. We may use this information for purposes including determining which of our emails are more interesting to you and to query whether users who do not open our emails wish to continue receiving them. The pixel will be deleted when you delete the email. If you do not wish the pixel to be downloaded to your device, you should select to receive emails from us in plain text rather than HTML.</p>
-        <p className={styles.modalTitle}>Use of IP Addresses and Web Logs</p>
-        <p className={styles.info}>We may also use your IP address and browser type to help diagnose problems with our server, to administer our Website, and to improve the service we offer to you. An IP address is a numeric code that identifies your computer on the internet. Your IP address might also be used to gather broad demographic information.
-          <br/><br/>
-          We may perform IP lookups to determine which domain you are coming from (e.g., Google.com) to more accurately gauge our users&#39; demographics.
-          <br/><br/>
-          Information from these types of cookies and technologies or about website usage is not combined with information about you from any other source.
-          <br/><br/>
-          None of the cookies or technologies that we use will personally identify you.
-          </p>
-        <p className={styles.modalTitle}>Cookies Policy Does Not Cover Third-Party Websites</p>
-        <p className={styles.info}>Please note that this Cookies Policy does not apply to, and we are not responsible for, the privacy practices of third-party websites that may be linked to the Website.</p>
-        <p className={styles.modalTitle}>Changes to the Cookies Policy</p>
-        <p className={styles.info}>We may update this Cookies Policy, and we would encourage you to review the policy from time to time to stay informed of how we are using cookies.</p>
-         
+        <p className={styles.modalTitle}>Questions?</p>
+        <p className={styles.info}>To ask questions or communicate any concerns, complaints, or comments about this Privacy Policy and our privacy practices, or to request the details of the relevant regulator, please contact us at admin@aiasecure.com.</p>
+
+        
+        <p className={styles.modalTitle}>California Consumer Privacy Request</p>
     </div>
     
     </div>
