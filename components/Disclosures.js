@@ -8,8 +8,7 @@ export default function Disclosures() {
             <ul className={styles.disclaimer}>
                 <li className={styles.listItem}>Terms of Use and Legal Notices</li>
                 <li className={styles.listItem}><Link href={"/privacy-policy"}>Privacy</Link></li>
-                
-                <li className={styles.listItem}>Cookies Policy</li>
+                <li className={styles.listItem}><Link href={"/cookies-policy"}>Cookies Policy</Link></li>
                 <li className={styles.listItem}>California Consumer Privacy Request</li>
                 </ul>
             </div>

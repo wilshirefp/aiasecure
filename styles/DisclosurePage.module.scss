@@ -23,7 +23,7 @@
     
             .border{
                 border-top: 5px solid #94c93d;
-                width: 40%;
+                width: 30%;
                padding-bottom: 2.5em;
             }
         }
@@ -40,6 +40,14 @@
         margin: 0;
         color: #58595b;
      font-family: "Arial";
+    }
+    .infoList{
+        color: #58595b;
+        font-family: "Arial";margin-left: 20px;
+    }
+    .infoListInner{
+        color: #58595b;
+        font-family: "Arial";margin-left: 60px;
     }
     .disclosures{
         display: flex;
