@@ -15,8 +15,8 @@ export default function CaliforniaPrivacyPolicy() {
     </Head>
     <div className={styles.hero}>
   <div className={styles.wrapper}>
-        <h1 className={styles.title}>COOKIES POLICY</h1>
-        <div className={styles.border}>
+        <h1 className={styles.title}>CALIFORNIA PRIVACY POLICY</h1>
+        <div className={styles.borderLG}>
         </div>
     </div>
     </div>
@@ -97,8 +97,6 @@ export default function CaliforniaPrivacyPolicy() {
         <p className={styles.modalTitle}>Questions?</p>
         <p className={styles.info}>To ask questions or communicate any concerns, complaints, or comments about this Privacy Policy and our privacy practices, or to request the details of the relevant regulator, please contact us at admin@aiasecure.com.</p>
 
-        
-        <p className={styles.modalTitle}>California Consumer Privacy Request</p>
     </div>
     
     </div>
