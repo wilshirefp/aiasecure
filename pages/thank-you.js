@@ -27,7 +27,7 @@ export default function ThankYou() {
     </div>
     <div className={styles.items}>
         {/* <p className={styles.modalTitle}>Thank you for contacting us! We'll be in touch soon. For immediate assistance please call us at (877) 247-7557</p> */}
-        <p className={styles.info}>Thank you for contacting us! We'll be in touch soon. For immediate assistance please call us at (877) 247-7557</p>
+        <p className={styles.info}>Thank you for contacting us! We&#39;ll be in touch soon. For immediate assistance please call us at (877) 247-7557</p>
          
     </div>
     
