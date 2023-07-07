@@ -75,7 +75,7 @@ export default function Service() {
                   <div className={styles.border}></div>
                 </div>
               <div className={styles.desc}>
-                <p>Our team has extensive experience in providing sell-side and buy-side representation for middle market and boutique market enterprises. We work closely with our clients to identify potential targets, negotiate the best terms, and structure transactions that align with their strategic goals.</p>
+                <p>Our team has extensive experience in providing sell-side and buy-side representation for middle market and boutique market enterprises. We work closely with our clients to identify potential targets, negotiate terms, and structure transactions that align with their strategic goals.</p>
               </div>
               <div className={styles.cta}>
               <Link href={"/services/mergers-acquisitions"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>

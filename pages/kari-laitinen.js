@@ -33,9 +33,9 @@ export default function KariLaitinen() {
             <div className={styles.licArea}>
               <p className={styles.modalTitle}></p>
               <p>• Series 63 - State Uniform Securities</p>
-              <p>• Series  7 - General Securities Representative</p>
+              <p>• Series 7 - General Securities Representative</p>
               <p>• Series 24 - General Securities Principal</p>
-              <p>• Series  79 - Investment Banking Representative state and federal licenses</p>
+              <p>• Series 79 - Investment Banking Representative</p>
               
             </div>
             
