@@ -90,22 +90,52 @@
     }
     
 }
-@media screen and (max-width: 1024px){
-    .container{
-        color:yellow
-    }
+
+// @media screen and (max-width: 1024px){
+//     .container{
+//         color:yellow
+//     }
     
-}
-@media screen and (max-width: 850px){
-    .container{
-        color:black
+// }
+// @media screen and (max-width: 850px){
+//     .container{
+//         color:black
         
-    }
+//     }
     
-}
+// }
+
 @media screen and (max-width: 480px){
     .container{
-        color:purple
+        color:purple;
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+        height: 500px;
+        
+        .wrapper{
+            display: flex;
+        flex-direction: column;
+
+        .image{
+            display: none;
+            //height: 200px;
+            padding: 0;
+            margin: 0;
+
+        }
+        .title{
+            font-size: 30px;
+        }
+        .desc{
+            font-size: 20px;
+        }
+        
+
+
+        }
+
         
     }
 }

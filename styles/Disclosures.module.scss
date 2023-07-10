@@ -49,7 +49,37 @@
 }
 @media screen and (max-width: 480px){
     .container{
-        color:purple
+       // height:60px;
+        background-color: white;
+        width: 100%;
+    
+        .disclosures{
+            //margin: 1em 0;
+           // text-align: center;
+           margin: 0;
+           padding: 0;
+           .disclaimer{
+            padding: 0;
+            width: 100%;
+           }
+            .listItem{
+                list-style: none;
+                display: inline;
+                
+                font-size: 15px;
+                margin: 5px;
+                border-right: 1px solid #21254b;
+                //flex-wrap: nowrap;
+                //background-color: yellow;
+                //padding-right: 5px;
+                &:nth-last-child(1){
+                    
+                    border: none;
+                    
+                }
+            } 
+            
+        }
         
     }
 }

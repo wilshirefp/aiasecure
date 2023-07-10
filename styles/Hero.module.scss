@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 1200px){
     .container{
-       color: #94c93d;
+     //  color: #94c93d;
         .wrapper{
             .title{
                 font-size: 3em;
@@ -92,15 +92,18 @@
     }
     
 }
-@media screen and (max-width: 1024px){
-    .container{
-        color:yellow
-    }
+// @media screen and (max-width: 1024px){
+//     .container{
+//         color:yellow
+
+        
+//     }
     
-}
+// }
 @media screen and (max-width: 850px){
     .container{
         color:white;
+        min-height: 400px;
         .wrapper{
             .title{
                 font-size: 2em;
@@ -129,9 +132,10 @@
 @media screen and (max-width: 480px){
     .container{
         color:white;
+        min-height: 300px;
         .wrapper{
             .title{
-                font-size: 2em;
+                font-size: 1.5em;
             }
             .cta{
                 flex-direction: column;
@@ -140,13 +144,13 @@
             }
             .desc{
                 width: 100%;
-                font-size: 1.2em;
+                font-size: 1em;
             }
             .button{
                 width: 125px;
                 height:2em;
                 .buttonText{
-                    font-size: 1.1em;
+                    font-size: 1em;
                 }
                 
             }

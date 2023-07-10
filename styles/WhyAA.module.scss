@@ -69,22 +69,41 @@
     }
     
 }
-@media screen and (max-width: 1024px){
-    .container{
-        color:yellow
-    }
+// @media screen and (max-width: 1024px){
+//     .container{
+//         color:yellow
+//     }
     
-}
-@media screen and (max-width: 850px){
-    .container{
-        color:black
+// }
+// @media screen and (max-width: 850px){
+//     .container{
+//         color:black
         
-    }
+//     }
     
-}
+// }
 @media screen and (max-width: 480px){
     .container{
-        color:purple
-        
+        color:white;
+        padding: 20px 0 0 0;
+        height:350px;
+
+        .item{
+        margin-left: 20px;
+        }
+        .title{
+            font-size: 30px;
+        }
+        .desc{
+            font-size: 20px;
+            width: 90%;
+        }
+        .border{
+            width: 90%;
+        }
+        .button{
+            width: 150px;
+        }
+
     }
 }

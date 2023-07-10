@@ -8,7 +8,7 @@ export default function Institutional() {
         <div className={styles.wrapper}>
             {/* <div className={styles.item}> */}
                 <div className={styles.img}>
-                    <Image src="/images/institutional2.png" width="475" height="375" ></Image>
+                    <Image className={styles.image} src="/images/institutional2.png" width="475" height="375" ></Image>
                 </div>
             {/* </div> */}
             <div className={styles.item}>

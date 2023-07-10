@@ -83,4 +83,36 @@
         }
     }
 }
+@media screen and (max-width: 480px){
+    .container{
+        
+        .content{
+            
+            display: flex;
+            flex-direction: column;
+
+            .item{
+                font-size: 15px;
+                .contactItems{
+                    
+                    align-items: center;
+                    border-bottom: 2px solid white;
+                    padding-bottom: 30px;
+                    
+                    .contactInfo{
+                        padding: 1em 0;
+                    }
+                }
+                .resourcesArea{
+                    font-size: 17px;
+                    .list{
+                        display: inline-block;
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        
+    }
+}
 

@@ -3,7 +3,7 @@ import styles from '../styles/Footer.module.scss';
 import Image from 'next/image'
 import { SocialIcon } from 'react-social-icons';
 import Disclosures from './Disclosures';
-
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -25,14 +25,14 @@ export default function Footer() {
           <div className={styles.item}>
             <div className={styles.resourcesArea}>
               <ul className={styles.list}>
-                <li className={styles.listItem}>About</li>
-                <li className={styles.listItem}>Services</li>
-                <li className={styles.listItem}>Investors</li>
-                <li className={styles.listItem}>Contact</li>
+                <li className={styles.listItem}><Link href="/about"><span>About</span></Link> </li>
+                <li className={styles.listItem}><Link href="/services"><span>Services</span></Link></li>
+                <li className={styles.listItem}><Link href="/investors"><span>Investors</span></Link></li>
+                <li className={styles.listItem}><Link href="/contact"><span>Contact</span></Link></li>
               </ul>
               <div className={styles.member}>
                 <span className={styles.finra}>Member FINRA and SIPC</span>
-                <span className={styles.broker}>Broker Check</span>
+                <span className={styles.broker}><Link href="https://brokercheck.finra.org"><span>Broker Check</span></Link></span>
               </div>
               </div>
               {/* <div className={styles.socialIcon}>
