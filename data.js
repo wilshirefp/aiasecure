@@ -79,7 +79,7 @@ export const data = [
     {
         id: 22,
         name:"mergers-acquisitions",
-        title:"MERGERS & ACQUISITIONS",
+        title:"MERGERS AND ACQUISITIONS",
         label:"mergers and acquisitions",
         lableAbbr:"",
         ctaLabel:"SPEAK TO A BANKER",

@@ -15,7 +15,7 @@ export default function Institutional() {
                 <div className={styles.border}>
                 <h2 className={styles.title}>Institutional Sophistication with an Entrepreneurial Approach</h2>
                 </div>
-                <p className={styles.desc}>AIA Securities provides a range of investment, advisory, and financial services, led by a team of alternative investment advisors with deep industry knowledge and a solutions-focused approach.</p>
+                <p className={styles.desc}>AIA Securities provides a range of investment and financial services, led by a team of bankers with deep industry knowledge and a solutions-focused approach.</p>
                <Link href={"/services"}> 
                     <div className={styles.button}>
                         <p className={styles.buttonText}>LEARN MORE</p>

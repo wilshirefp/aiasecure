@@ -70,7 +70,7 @@ export default function Service() {
               <div className={styles.titleSection}>
                 <div className={styles.head}>
                 <Image className={styles.icon} src="/images/maicon2.png" alt="Corporate Finace bulb image" width="58" height="58"></Image> 
-                <h2 className={styles.title}>Mergers &#x26; Acquisitions</h2>
+                <h2 className={styles.title}>Mergers and Acquisitions</h2>
                 </div>
                   <div className={styles.border}></div>
                 </div>
