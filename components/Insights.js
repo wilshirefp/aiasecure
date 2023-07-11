@@ -22,7 +22,7 @@ export default function Insights() {
                   <h2 className={styles.title}>Investment &#x26; Financial Services</h2>
                   </div>
                   <span className={styles.desc}>We deliver a full spectrum of financial services to guide clients through all stages of corporate transactions — from idea to execution and formation to exit.</span>
-                  <span className={styles.desc}>AIA is committed to delivering superior service and customized solutions to our clients</span>
+                  <span className={styles.desc}>AIA is committed to delivering superior service and customized solutions to our clients.</span>
                   <span className={styles.desc}><span className={styles.reg}>Unlock Opportunity<span className={styles.copy}>&reg;</span></span></span>
                   <Link href={"/services"}>
                   <div className={styles.button}>
