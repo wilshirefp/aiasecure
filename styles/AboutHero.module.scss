@@ -57,3 +57,26 @@
     
     }
 }
+@media screen and (max-width: 480px){
+    .container{
+        .wrapper{
+            .title{
+                font-size: 3.5em;
+            }
+
+        .cta{
+            .button{
+                height: 2.5em;
+                width: 200px;
+                .buttonText{
+                    font-size: 1em;
+                }
+            }
+        }
+            
+
+        }
+        
+        
+    }
+}

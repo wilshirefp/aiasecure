@@ -52,7 +52,7 @@ export default function Leadership({setOpen,Open}) {
             </div>
         </div>
         <div className={styles.brokerBorder}></div>
-          <Link href={"https://brokercheck.finra.org/"}><p className={styles.brokerCheck}>Broker Check</p></Link>  
+          <Link href={"https://brokercheck.finra.org"}><p className={styles.brokerCheck}>Broker Check</p></Link>  
         </div>
         {/* <div onClick={() => setOpen(false)} className={styles.modal} style={{top:"0", right: open? "0px" :"-100vh"}}>
             <p>Mr. Pelgrim has extensive experience in real estate finance, the acquisition and disposition of real estate, real estate investment, loan workouts and the resolution of problem assets. His experience extends to investment banking, finance, mergers and acquisitions, venture capital, private equity, capital markets, corporate governance and regulatory issues affecting public and privately held companies.</p>

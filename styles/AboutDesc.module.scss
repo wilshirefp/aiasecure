@@ -47,3 +47,20 @@
         }
     }
 }
+@media screen and (max-width: 480px){
+    .container{
+        .wrapper{
+            .capital{
+                .item{
+                    .title{
+                        font-size: 2em;
+                    }
+                    .desc{
+                        font-size: 1.1em;
+                    }
+                }
+            }
+        }
+        
+    }
+}

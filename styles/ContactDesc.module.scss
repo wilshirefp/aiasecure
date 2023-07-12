@@ -39,3 +39,38 @@
         }
     }
 }
+// @media screen and (max-width: 1200px){
+//     .container{
+//         .wrapper{
+//             width: 95%;
+//         }
+        
+//     }
+    
+// }
+@media screen and (max-width: 1024px){
+    .container{
+        .wrapper{
+            width: 95%;
+        }
+        
+    }
+    
+}
+@media screen and (max-width: 850px){
+    .container{
+        .wrapper{
+            width: 95%;
+        }
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        .wrapper{
+            width: 95%;
+        }
+        
+    }
+}

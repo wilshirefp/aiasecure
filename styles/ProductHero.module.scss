@@ -56,3 +56,17 @@
     
     }
 }
+@media screen and (max-width: 480px){
+    .container{
+        
+       .wrapper{
+        .title{
+            font-size: 3.5em;
+        }
+        .border{
+            padding-bottom: 3em;
+        }
+       }
+        
+    }
+}

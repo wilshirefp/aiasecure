@@ -18,6 +18,7 @@
 
     .wrapper{
         padding: 120px 145px 0px;
+       
 
         .title{
             font-weight: bold;
@@ -297,7 +298,7 @@
             flex-direction: row;
             font-weight: bold;
             font-size: 1.3em;
-            width: 40%;
+            width: 50%;
             height:3em;
             display: flex;
             align-items: center;
@@ -398,4 +399,154 @@
     }
 }
     
+}
+
+@media screen and (max-width: 850px){
+    .container{
+        .hero{
+            .wrapper{
+            padding: 20% 10px;
+            font-size: 20px;
+            
+            .title{
+                font-size: 2.5em;
+            }
+            .button{
+                width: 55%;
+            }
+        }
+
+        }
+
+        .capital{
+            padding: 0;
+            width: 100%;
+            .item{
+                
+                border: none;
+                .title{
+                    font-size: 2em;
+                }
+                .desc{
+                    font-size: 1.4em;
+                    width: 100%;
+                }
+            }
+        }
+        .services{
+            .cards{
+                flex-direction: column;
+                justify-content: center;
+
+                .card{
+                    max-width: 100%;
+                    &:nth-child(odd){
+                        margin-bottom: 60px;
+                    }
+                    &:nth-child(even){
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        .decades{
+            margin-top: 0;
+           // background-color: #fff;
+            .icon{
+                display: none;
+            }
+            .product{
+                padding: 0;
+
+                .desc{
+                    font-size: 1.1em;
+                    width: 95%;
+                    padding: 0 5px;
+                }
+                .cta{
+                    width: 60%;
+                    font-size: 1.2em;
+                }
+            }
+        }
+        
+        
+    }
+    
+}
+@media screen and (max-width: 480px){
+    .container{
+        .hero{
+            .wrapper{
+            padding: 20% 10px;
+            font-size: 20px;
+            
+            .title{
+                font-size: 2.5em;
+            }
+            .button{
+                width: 55%;
+            }
+        }
+
+        }
+
+        .capital{
+            padding: 0;
+            width: 100%;
+            .item{
+                
+                border: none;
+                .title{
+                    font-size: 2em;
+                }
+                .desc{
+                    font-size: 1.4em;
+                    width: 100%;
+                }
+            }
+        }
+        .services{
+            .cards{
+                flex-direction: column;
+                justify-content: center;
+
+                .card{
+                    max-width: 100%;
+                    &:nth-child(odd){
+                        margin-bottom: 60px;
+                        //background-color: green;
+                    }
+                    &:nth-child(even){
+                        margin-bottom: 0;
+                    }
+                    
+                        
+                    
+                }
+            }
+        }
+        .decades{
+            margin-top: 0;
+         //   background-color: #fff;
+            .icon{
+                display: none;
+            }
+            .product{
+                padding: 0;
+
+                .desc{
+                    font-size: 1.1em;
+                    width: 95%;
+                    padding: 0 5px;
+                }
+                .cta{
+                    width: 60%;
+                    font-size: 1.2em;
+                }
+            }
+        }
+        
+        
+    }
 }

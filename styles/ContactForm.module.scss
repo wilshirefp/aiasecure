@@ -2,7 +2,7 @@
     padding: 0;
     display: flex;
 
-    justify-content: space-evenly;
+    //justify-content: space-evenly;
     padding: 0 100px;
     font-size: 1.3em;
     margin: 30px 0;
@@ -16,17 +16,21 @@
         font-weight: 600;
     }
     .formArea{
-        //width: 50%;
+        flex: 2;
+        max-width: 700px;
+        //width: 500px;
+        //padding: 0 10px;
         // background-color: #e6e6e6;
+        
         background-color: #e4e5e6;
         border-radius: 60px;
-        padding: 0.5em;
+        //padding: 0.5em;
         //opacity:0;
         transition: all 1s ease-in;
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-evenly;
         box-shadow: 10px 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
             ;
 
@@ -34,8 +38,11 @@
     }
     .form{
         width: 500px;
+       // width: 100%;
+       // max-width: 500px;
+        //min-width: none;
         height: 500px;
-        padding: 50px 50px 0;
+        padding: 50px 10px 0;
         display: flex;
         flex-wrap: wrap;
 
@@ -82,7 +89,7 @@
         }
     }
     .mapArea{
-    
+        flex: 2;
         display: flex;
         flex-direction: column;
         
@@ -90,6 +97,8 @@
         height: 675px;
         //justify-content: right;
         position: relative;
+        padding: 0 2%;
+        
         .imageArea{
             height:375px;
             position:relative;
@@ -108,4 +117,194 @@
         }
     }
 
+}
+
+// @media screen and (max-width: 1200px){
+//     .container
+//     {
+//             overflow: hidden;
+//             flex-direction: column;
+//             padding: 0 5px;
+//             margin-bottom: 0;
+//             width: 100%;
+//             align-items: center
+//             ;
+//             .formArea{
+//                 margin-bottom: 40px;
+//                 border-radius: 0;
+//                 width: 85%;
+//                 display: flex;
+//                 justify-content: center;
+                
+//             }
+//             .form{
+//                 width: 85%;
+//                 .inputS{
+//                     &:first-child{
+//                         margin-right: 0;
+//                     }
+//                 }
+//                 h3{
+//                     font-size: 1em;
+//                 }
+//             }
+//             .mapArea
+//             {
+//                     height: 100%;
+//                 img{
+//                     width: 100%;
+//                     height: 450px;
+//                 }
+//                 .imageArea{
+//                     height: 250px;
+//                 }
+
+//                 .contactInfo{
+//                     height: fit-content;
+//                     width: 95%;
+//                 }
+//             }
+//     }
+    
+    
+// }
+
+@media screen and (max-width: 1024px){
+    .container
+    {
+            overflow: hidden;
+            flex-direction: column;
+            padding: 0 5px;
+            margin-bottom: 0;
+            width: 100%;
+           // justify-content: center;
+            align-items: center
+            ;
+            .formArea{
+                margin-bottom: 40px;
+                border-radius: 0;
+                width: 85%;
+                display: flex;
+                justify-content: center;
+                
+            }
+            .form{
+                width: 85%;
+                // .inputS{
+                //     &:first-child{
+                //         margin-right: 0;
+                //     }
+                // }
+                h3{
+                    font-size: 1em;
+                }
+            }
+            .mapArea
+            {
+                    height: 100%;
+                img{
+                    width: 100%;
+                    height: 450px;
+                }
+                .imageArea{
+                    height: 250px;
+                }
+
+                .contactInfo{
+                    height: fit-content;
+                    width: 95%;
+                }
+            }
+    }
+    
+}
+@media screen and (max-width: 850px){
+    .container
+    {
+            overflow: hidden;
+            flex-direction: column;
+            padding: 0 5px;
+            margin-bottom: 0;
+            .formArea{
+                margin-bottom: 40px;
+                border-radius: 0;
+                padding: 10px 0 0 0;
+            }
+            .form{
+                width: 95%;
+                .inputS{
+                    // &:first-child{
+                    //     margin-right: 0;
+                    // }
+                }
+                h3{
+                    font-size: 1em;
+                }
+            }
+            .mapArea
+            {
+                    height: 100%;
+                img{
+                    width: 100%;
+                    height: 450px;
+                }
+                .imageArea{
+                    height: 250px;
+                }
+
+                .contactInfo{
+                    height: fit-content;
+                    width: 95%;
+                }
+            }
+    }
+    
+}
+
+@media screen and (max-width: 480px)
+{
+    .container
+    {
+            overflow: hidden;
+            flex-direction: column;
+            padding: 0 5px;
+            margin-bottom: 0;
+            .formArea{
+                margin-bottom: 40px;
+                border-radius: 0;
+                padding: 5px 0;
+            }
+            .form{
+                width: 95%;
+                
+                
+                .inputS{
+                    // display: flex;
+                    // flex-direction: column;
+                    // flex-wrap: nowrap;
+                    &:first-child{
+                        margin-right: 0;
+                    }
+                }
+                h3{
+                    font-size: 1em;
+                }
+            }
+            .mapArea
+            {
+                    height: 100%;
+                img{
+                    width: 100%;
+                    height: 250px;
+                }
+                .imageArea{
+                    height: 250px;
+                }
+
+                .contactInfo{
+                    height: fit-content;
+                    width: 95%;
+                }
+            }
+    }
 }

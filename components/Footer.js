@@ -31,7 +31,7 @@ export default function Footer() {
                 <li className={styles.listItem}><Link href="/contact"><span>Contact</span></Link></li>
               </ul>
               <div className={styles.member}>
-                <span className={styles.finra}>Member <Link href="https://www.finra.org/#/"><span>FINRA</span></Link> and <Link href=" https://www.sipc.org/"><span>SIPC</span></Link></span>
+                <span className={styles.finra}>Member <Link href="https://www.finra.org/#/"><span>FINRA</span></Link> and <Link href="https://www.sipc.org/"><span>SIPC</span></Link></span>
                 <span className={styles.broker}><Link href="https://brokercheck.finra.org/"><span>Broker Check</span></Link></span>
               </div>
               </div>
