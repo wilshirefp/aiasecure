@@ -13,10 +13,11 @@ export default function investors() {
   return (
     <div className={styles.container}>
         <Head>
-            <title>AIA Securities</title>
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <meta name="description" content="Alternative Investment Advisors" />
+            <title>Investors |Alternative Investments | AIA Securities</title>
+            <meta name="description" content="AIA Securities brings an unmatched perspective in alternative investments including private credit, real estate investment trusts (REIT), and direct participation programs specializing in senior housing real estate investment trusts (REIT), senior housing funds, health care REITs and health care funds." />
+            <meta name="keywords" content="alternative investments, investment opportunity, investment strategy"/>
             <link rel="icon" href="/favicon.ico" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         </Head>
         <ProductHero product={investorContent[0]}/>    
         <ProductDesc product={investorContent[0]}/>

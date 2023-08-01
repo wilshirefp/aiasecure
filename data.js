@@ -10,6 +10,9 @@ export const data = [
         desc:"AIA Securities offers a comprehensive range of ",
         desc2:" services to help our clients achieve their objectives. Our investment bankers embrace the intricacies of each situation and work closely with your team throughout the lifecycle of the transaction to help deliver positive results.",
         hero:"corp-fin-hero.png",
+        metaTitle:"Corporate Finance | AIA Securities",
+        metaDescription:"AIA Securities offers a comprehensive range of Corporate Finance services, including debt and equity placement, restructuring and recapitalization, and solutions for special situations.",
+        metaKeyword:"corporate finance",
         links:[
             {
                 id:1,
@@ -52,6 +55,9 @@ export const data = [
         desc:"AIA Securities delivers ",
         desc2:" services to help our clients access the capital they need to achieve their financial objectives. Based on our broad scope of experience planning, negotiating, documenting, forming, and implementing strategies across a variety of companies and partnerships, we offer a full range of capital raising services.",
         hero:"corp-fin-hero.png",
+        metaTitle:"Capital Raising | AIA Securities",
+        metaDescription:"AIA Securities offers a comprehensive range of Corporate Finance services, including debt and equity placement, restructuring and recapitalization, and solutions for special situations.",
+        metaKeyword:"capital raising",
         links:[
             {
                 id:1,
@@ -88,6 +94,9 @@ export const data = [
         desc:"At AIA Securities we understand that ",
         desc2:" can be complex transactions that require extensive experience and knowledge to execute successfully. We are committed to seeking the most effective avenue for adding strategic value to our clients’ companies. From inspiration to implementation, we help clients plan and execute every stage in the M&A process.",
         hero:"corp-fin-hero.png",
+        metaTitle:"M&A | AIA Securities",
+        metaDescription:"AIA Securities understands the complexities of mergers and acquisitions, and offers sell side representation, buy side representation, valuation, and general M&A advisory services.",
+        metaKeyword:"mergers and acquisition,m&a",
         links:[
             {
                 id:1,
@@ -130,6 +139,9 @@ export const data = [
         desc:"AIA Securities delivers ",
         desc2:" services to help our clients access the capital they need to achieve their financial objectives. Based on our broad scope of experience planning, negotiating, documenting, forming, and implementing strategies across a variety of companies and partnerships, we offer a full range of capital raising services.",
         hero:"corp-fin-hero.png",
+        metaTitle:"Due Diligence | AIA Securities",
+        metaDescription:"Helping clients access the capital they need, AIA Securities delivers valuable due diligence guidance.",
+        metaKeyword:"due diligence",
         links:[
             {
                 id:1,
@@ -165,6 +177,9 @@ export const data = [
         desc:"AIA Securities understands that access to capital is essential to the success of any business. We pride ourselves on speed, efficiency, and flexibility to bring our clients certainty of execution in meeting their financing needs.",
         desc2:"",
         hero:"corp-fin-hero.png",
+        metaTitle:"Lending | AIA Securities",
+        metaDescription:"With expertise in real esate finance, comercial and industrial lending, AIA Securities understands the critical nature of lending and access to capital.",
+        metaKeyword:"lending",
         links:[
             {
                 id:1,

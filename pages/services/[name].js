@@ -14,9 +14,10 @@ export default function Product({product}) {
   return (
     <div className={styles.container}>
     <Head>
-        <title>AIA Securities</title>
+        <title>{product.metaTitle}</title>
+        <meta name="description" content={product.metaDescription} />
+        <meta name="keywords" content={product.metaKeyword}/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="Alternative Investment Advisors" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <ProductHero product={product}/>
