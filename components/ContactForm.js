@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 export default function ContactForm() {
     const router =useRouter();
     const [investor,setInvestor] = useState(false)
+    const [updates,setUpdates] = useState(false)
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [phone, setPhone] = useState("");
@@ -84,8 +85,14 @@ export default function ContactForm() {
                 <input className={styles.inputL} placeholder="Email*" type='email' name='email' onChange={(e) => {setEmail(e.target.value)}}/>
                 <input maxLength={14} required id='phone' onKeyUp={phoneNumberFormatter()} className={styles.inputL} type='tel' autoComplete='tel' placeholder='Phone Number*' name='phone' value={phone||''} onChange={(e) => {setPhone(e.target.value)}}></input>
                 <textarea required className={styles.textArea} name='message' value={message||''} onChange={(e) => {setMessage(e.target.value)}} placeholder='Message*' rows={6}></textarea>
-                <h3>Are you an institutional investor?</h3>
-                <input type="checkbox" id="investoer" onClick={(event) => setInvestor(event.target.checked)}></input>
+                <div className={styles.investorArea}>
+                  <p>Are you an institutional investor?</p>
+                  <input className={styles.inputCheck}  type="checkbox" id="investor" onClick={(event) => setInvestor(event.target.checked)}></input>
+                </div>
+                <div className={styles.investorArea}>
+                  <p className={styles.updates}>Please send me ongoing updates.</p>
+                  <input className={styles.inputCheck} type="checkbox" id="updates" onClick={(event) => setUpdates(event.target.checked)}></input>
+                </div>
                 {/* <input type='radio' name='investor' value={FALSE} id="investor" checked={investor===true}></input> */}
                 {/* <input type="radio" name="investor" id="investor" checked={investor===true} onChange={onInvestorChange} >Yes</input> */}
                 <button className={styles.button}>SUBMIT</button>
