@@ -55,7 +55,8 @@ export default function ContactForm() {
               lastName: String(lastName),
               phone: phone,
               message: String(message),
-              investor:Boolean(investor),
+              investor:String(investor ? "Yes" : "No"),
+              updates:String(updates? "Yes" : "No"),
             }),
             headers: {
               "Content-Type": "application/json",

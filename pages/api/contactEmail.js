@@ -8,6 +8,7 @@ async function sendEmail(req, res) {
     // console.log("REQ.BODY", req.body);
     await sendgrid.send({
       to: "njohnson@wilshirefp.com", 
+      // to: "marketing@pantummedia.com", 
       from: "dpelgrim@wilshirelender.com", 
     //   subject: `${req.body.subject}`,
       subject: `New AIASecure Contact`,
@@ -28,14 +29,15 @@ async function sendEmail(req, res) {
               <div class="container" style="margin-left: 20px;margin-right: 20px;">
                 <h3>You've got a new mail</h3>
                 <h3>firstName: ${req.body.firstName}</h3> 
-                <h3>LastName:${req.body.lastName}</h3>
+                <h3>LastName: ${req.body.lastName}</h3>
                 <h3>Phone number: ${req.body.phone}</h3>
                 <h3>email: ${req.body.email} </h3>
                 <div style="font-size: 16px;">
                 <p>Message:</p>
                 <p>${req.body.message}</p>
                 <br>
-                <p>Investor:${req.body.investor}</p>
+                <p>Investor: ${req.body.investor}</p>
+                <p>Get Updates: ${req.body.updates}</p>
                 <br>
               </div>
         </div>
