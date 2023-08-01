@@ -29,6 +29,7 @@ export default function Service() {
         <div className={styles.services}>
           <div className={styles.cards}>
             <div className={styles.card}>
+            <Link href={"/services/corporate-finance"}>
               <div className={styles.titleSection}>
                 <div className={styles.head}>
                 <Image className={styles.icon} src="/images/lightbulb.png" alt="Corporate Finace bulb image" width="59" height="60"></Image> 
@@ -41,11 +42,15 @@ export default function Service() {
                 <p>We help companies raise capital by placing debt and equity securities with institutional investors. Our expertise in this area allows us to execute transactions that maximize value for our clients.</p>
               </div>
               <div className={styles.cta}>
-                <Link href={"/services/corporate-finance"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>
+                {/* <Link href={"/services/corporate-finance"}> */}
+                  <p className={styles.ctaLabel}>LEARN MORE</p>
+                {/* </Link> */}
                 <p className={styles.symbol}>&#x3E;</p>
               </div>
+              </Link>
             </div>
             <div className={styles.card}>
+            <Link href={"/services/capital-raising"}>
               <div className={styles.titleSection}>
               <div className={styles.head}>
                 <Image className={styles.icon} src="/images/charticon3.png" alt="Corporate Finace bulb image" width="65" height="58"></Image> 
@@ -57,9 +62,12 @@ export default function Service() {
                 <p>We have a proven track record of successfully structuring and executing complex financing solutions such as private placements, syndicated debt and equity, joint ventures, and other structures. Our deep relationships with investors allow us to provide our clients with access to the capital they need to grow their businesses.</p>
               </div>
               <div className={styles.cta}>
-              <Link href={"/services/capital-raising"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>
+              
+                <p className={styles.ctaLabel}>LEARN MORE</p>
+              
                 <p className={styles.symbol}>&#x3E;</p>
               </div>
+              </Link>
             </div>
           </div>
 
@@ -67,6 +75,7 @@ export default function Service() {
         <div className={styles.services}>
           <div className={styles.cards}>
             <div className={styles.card}>
+            <Link href={"/services/mergers-acquisitions"}>
               <div className={styles.titleSection}>
                 <div className={styles.head}>
                 <Image className={styles.icon} src="/images/maicon2.png" alt="Corporate Finace bulb image" width="58" height="58"></Image> 
@@ -79,11 +88,15 @@ export default function Service() {
               </div>
               
               <div className={styles.cta}>
-              <Link href={"/services/mergers-acquisitions"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>
+              
+                <p className={styles.ctaLabel}>LEARN MORE</p>
+              
                 <p className={styles.symbol}>&#x3E;</p>
               </div>
+              </Link>
             </div>
             <div className={styles.card}>
+            <Link href={"/services/due-diligence"}>
               <div className={styles.titleSection}>
               <div className={styles.head}>
                 <Image className={styles.icon} src="/images/dd-icon.png" alt="Corporate Finace bulb image" width="56" height="56"></Image> 
@@ -95,16 +108,22 @@ export default function Service() {
                 <p>We provide comprehensive due diligence, analysis, consultation, and valuation for small and medium acquisitions and investments. Our team of experts is equipped to provide valuable insights that help our clients make informed decisions.</p>
               </div>
               <div className={styles.cta}>
-              <Link href={"/services/due-diligence"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>
+              
+                <p className={styles.ctaLabel}>LEARN MORE</p>
+              
                 <p className={styles.symbol}>&#x3E;</p>
               </div>
+              </Link>
             </div>
           </div>
 
         </div>
         <div className={styles.services}>
           <div className={styles.cards}>
+          
             <div className={styles.card}>
+
+            <Link href={"/services/lending"}>
               <div className={styles.titleSection}>
               <div className={styles.head}>
                 <Image className={styles.icon} src="/images/decisionIcon.png" alt="Corporate Finace bulb image" width="55" height="60"></Image> 
@@ -116,10 +135,15 @@ export default function Service() {
                 <p>We offer a wide range of lending services, including real estate finance, commercial mortgage lending, commercial and industrial lending. Our team of experienced professionals has a deep understanding of the lending market, which enables us to provide customized solutions that meet our clients&apos; unique needs.</p>
               </div>
               <div className={styles.cta}>
-              <Link href={"/services/lending"}><p className={styles.ctaLabel}>LEARN MORE</p></Link>
+              {/* <Link href={"/services/lending"}> */}
+                <p className={styles.ctaLabel}>LEARN MORE</p>
+              {/* </Link> */}
                 <p className={styles.symbol}>&#x3E;</p>
               </div>
+              </Link>
+              
             </div>
+            
           </div>
 
         </div>

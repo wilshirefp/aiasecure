@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/ProductIndustries.module.scss'
+import Link from 'next/link'
 
 export default function ProductIndustries({product}) {
   return (
@@ -25,9 +26,11 @@ export default function ProductIndustries({product}) {
                 <p className={styles.desc}>AIA is proud to offer <span className={styles.introBold}>{product.label}</span> services to the real estate, healthcare, transportation/logistics, manufacturing, and food industries.</p>
               )
             }
+            <Link href={`/${product.ctaUrl}`}>  
             <div className={styles.button}>
                 <p className={styles.buttonText}>LEARN MORE</p>
             </div>
+            </Link>
         </div>
         </div>
     </div>

@@ -5,7 +5,7 @@ export const investorContent = [
         title:"INVESTORS",
         label:"",
         ctaLabel:"SPEAK TO A BANKER",
-        ctaUrl:"",
+        ctaUrl:"contact",
         subTitle:"Three Pillars of Success",
         desc:"Our investment foundation is built on three pillars: experience, contacts, and access. We bring an unmatched perspective in alternative investment strategies, keeping a sharp eye on opportunities with strong potential for value creation.",
         hero:"corp-fin-hero.png",
