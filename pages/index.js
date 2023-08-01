@@ -12,10 +12,10 @@ export default function Home() {
     <div className={styles.container}>
 
       <Head>
-        <title>AIA Securities</title>
+        <title>AIA Securities | Investment Banking</title>
+        <meta name="description" content="AIA Securities is a nationwide, investment banking firm delivering a range of corporate finance services to investors and clients." />
+        <meta name="keywords" content="investment banking, real estate investment banking"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <meta name="description" content="Alternative Investment Advisors" />
-
       </Head>
       <Hero/>
       <Institutional/>

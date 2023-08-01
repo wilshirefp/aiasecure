@@ -40,6 +40,13 @@
                        text-align: center;
                        //background-color: yellow;
                    }
+                   .signedUp{
+                        color:orange;
+                        padding-left: 0.5em;
+                       font-size: 2em;
+                       font-weight: bold;
+                       text-align: center;
+                   }
             }
             // .emailArea{
             //     margin-right: 1em;
@@ -88,7 +95,9 @@
                        justify-content: center;
                        background-color: #19204b;
                        color:#fff;
+                       border: none;
                        font-size: 1em;
+                       width: 100%;
                        &:hover{
                         background-color: #94c93d;
                         

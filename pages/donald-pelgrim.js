@@ -2,10 +2,18 @@ import React from 'react'
 import styles from '../styles/Leader.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function DonaldPelgrim() {
   return (
     <div className={styles.container}>
+      <Head>
+            <title>Don Pelgrim | AIA Securities</title>
+            <meta name="description" content="Learn more about AIA Securities' CEO, Don Pelgrim." />
+            <meta name="keywords" content="Don Pelgrim"/>
+            <link rel="icon" href="/favicon.ico" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        </Head>
       <div className={styles.hero}>
       <div className={styles.wrapper}>
             <h1 className={styles.title}>ABOUT DONALD PELGRIM</h1>

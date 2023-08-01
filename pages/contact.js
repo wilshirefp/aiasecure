@@ -11,9 +11,9 @@ export default function contact() {
   return (
     <div className={styles.container}>
         <Head>
-            <title>AIA Securities - Contact</title>
+            <title>Contact | AIA Securities</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            <meta name="description" content="Alternative Investment Advisors" />
+            <meta name="description" content="Contact AIA Securities" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <ContactHero/>
