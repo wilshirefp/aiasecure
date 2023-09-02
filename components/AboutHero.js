@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../styles/AboutHero.module.scss'
+import Link from 'next/link'
 
 export default function ContactHero() {
   return (
@@ -8,9 +9,10 @@ export default function ContactHero() {
             <h1 className={styles.title}>ABOUT</h1>
             <div className={styles.border}></div>
             <div className={styles.cta}>
-                <div className={styles.button}>
+                <Link href={"/contact"}> <div className={styles.button}>
                   <p className={styles.buttonText}>SPEAK TO A BANKER</p>
                 </div>
+              </Link>
             </div>
         </div>
         
