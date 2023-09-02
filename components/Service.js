@@ -13,9 +13,11 @@ export default function Service() {
             <h1 className={styles.title}>SERVICES</h1>
             <div className={styles.border}>
             </div>
+            <Link href={"/contact"}> 
             <div className={styles.button}>
                 <p className={styles.buttonText}>SPEAK TO A BANKER</p>
             </div>
+            </Link>
         </div>
         </div>
         <div className={styles.capital}>
