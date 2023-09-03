@@ -32,7 +32,7 @@ const [open, setOpen] = useState(false);
               <div className={styles.line}></div>
               <div className={styles.line}></div>
             </div>
-            <ul onClick={() => setOpen(false)} className={styles.hmenu} style={{right: open ? "0px" : "-50vh"}}>
+            <ul onClick={() => setOpen(false)} className={styles.hmenu} style={{right: open ? "0px" : "-150vh"}}>
               <li key={40} className={styles.hlistItem}><Link href="/about"><span>About</span></Link> </li>
                 <li key={41} className={styles.hlistItem}><Link href="/services"><span className={styles.hparentMenu}>Services</span></Link>
                 <ul key={42} className={styles.hsubMenuDropdown}>
