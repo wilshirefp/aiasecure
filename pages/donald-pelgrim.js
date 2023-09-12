@@ -40,8 +40,8 @@ export default function DonaldPelgrim() {
               <p className={styles.cat}>SECURITIES:</p>
               <p>• Series 24 - General Securities Principal</p>
               <p>• Series  7 - General Securities Representative</p>
-              <p>• Series  66 – NASAA Uniform Combined State Securities License</p>
-              
+              <p>• Series 79 – Investment Banking Representative</p>
+              <p>• Series  66 – NASAA Uniform Combined State Securities License</p>              
               <p className={styles.cat}>REAL ESTATE:</p>
               <p>• California Real Estate Brokers License</p>
               <p>• California Finance Lenders License</p>
