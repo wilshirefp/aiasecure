@@ -56,7 +56,7 @@ export const data = [
         desc2:" services to help our clients access the capital they need to achieve their financial objectives. Based on our broad scope of experience planning, negotiating, documenting, forming, and implementing strategies across a variety of companies and partnerships, we offer a full range of capital raising services.",
         hero:"corp-fin-hero.png",
         metaTitle:"Capital Raising | AIA Securities",
-        metaDescription:"AIA Securities offers a comprehensive range of Corporate Finance services, including debt and equity placement, restructuring and recapitalization, and solutions for special situations.",
+        metaDescription:"AIA Securities' Capital Raising services include private placements, private syndications, joint ventures and other structures.",
         metaKeyword:"capital raising",
         links:[
             {
