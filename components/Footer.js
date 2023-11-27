@@ -33,6 +33,7 @@ export default function Footer() {
               <div className={styles.member}>
                 <span className={styles.finra}>Member <Link href="https://www.finra.org/#/"><span>FINRA</span></Link> and <Link href="https://www.sipc.org/"><span>SIPC</span></Link></span>
                 <span className={styles.broker}><Link href="https://brokercheck.finra.org/"><span>Broker Check</span></Link></span>
+                <span className={styles.broker}><Link href="/AIA-Securities-Form-CRS-2023-11-15.pdf" target="_blank"><span>FORM CRS</span></Link></span>
               </div>
               </div>
               {/* <div className={styles.socialIcon}>
